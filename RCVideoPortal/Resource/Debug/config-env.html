@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+            <title>RC Config Env</title>
+            
+            
+            <style>
+                label {
+                    font-size: 20px;
+                    width: 100%;
+                    text-align: center;
+                }
+            
+            textarea {
+                font-size: 20px;
+            }
+            
+            input {
+                width: 80px;
+                font-size: 20px;
+            }
+            </style>
+            
+    </head>
+    
+    <body>
+        
+        <br/>
+        
+        <div>
+            <label>RC Config: Please enter configuration environment information</label>
+        </div>
+        
+        <br/>
+        
+        
+        <div>
+            <textarea type="text" name="config-env" form="input-env-form-id" cols="160" rows="22">%variable%</textarea>
+        </div>
+        
+        <br/>
+        
+        <div>
+            <form name="input-env-form" id="input-env-form-id" action="/" method="post" enctype="application/x-www-form-urlencoded">
+                <input type="submit" value="submit">
+                    </form>
+        </div>
+        
+        
+    </body>
+</html>
+

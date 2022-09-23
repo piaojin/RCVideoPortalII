@@ -1,0 +1,28 @@
+//
+//  GlipConfig-Appstore.xcconfig
+//  Glip
+//
+//  Created by Pika Qiu on 2019/6/28.
+//  Copyright © 2019 RingCentral. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "RCVideoPortalSharedConfig.xcconfig"
+#include "../../Config/AppStoreSharedConfig.xcconfig"
+#include "../../../ringcentral-II/Glip/Pods/Target Support Files/Pods-RCVideoPortal/Pods-RCVideoPortal.appstore.xcconfig"
+
+
+CODE_SIGN_IDENTITY = Apple Distribution: RingCentral, Inc. (M932RC5J66)
+CODE_SIGN_IDENTITY[sdk=iphoneos*] = Apple Distribution: RingCentral, Inc. (M932RC5J66)
+
+CODE_SIGN_STYLE = Manual
+DEVELOPMENT_TEAM = M932RC5J66
+
+PROVISIONING_PROFILE_SPECIFIER = RingCentralAppStore
+PROVISIONING_PROFILE = 8ba83c9c-9646-4f11-a914-4e89299cffdb
+
+PRODUCT_BUNDLE_IDENTIFIER = com.glip.mobile
+// Use the same entitlements as Glip project so that no need to maintain multiple signature files.
+CODE_SIGN_ENTITLEMENTS = $(SRCROOT)/../ringcentral-II/Glip/Glip/Config/Glip.entitlements

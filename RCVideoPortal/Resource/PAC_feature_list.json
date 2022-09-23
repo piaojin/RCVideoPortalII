@@ -1,0 +1,64 @@
+{
+    "gapFeatureList": [
+        {
+            "name": "Test gapFeatureList",
+            "featureCode": "B9901"
+        },
+        {
+            "name": "Test gapFeatureList",
+            "featureCode": "B9904"
+        }
+    ],
+    "deltaBaselineList": [
+        {
+            "name": "Test deltaBaselineList",
+            "featureCode": "B9902"
+        }
+    ],
+    "baselineFeatureList": [
+        {
+            "name": "Mobile pair with a Room",
+            "featureCode": "B0101"
+        },
+        {
+            "name": "Mobile validate pairing code",
+            "featureCode": "B0102"
+        },
+        {
+            "name": "Mobile displaying upcoming meeting",
+            "featureCode": "B0201"
+        },
+        {
+            "name": "Mobile take control",
+            "featureCode": "B0301"
+        },
+        {
+            "name": "Join meeting from paired mobile",
+            "featureCode": "B0401"
+        },
+        {
+            "name": "Start meeting from paired mobile",
+            "featureCode": "B0402"
+        },
+        {
+            "name": "Mobile mute/unmute rooms microphone",
+            "featureCode": "B0403"
+        },
+        {
+            "name": "Mobile turn on/off rooms camera",
+            "featureCode": "B0404"
+        },
+        {
+            "name": "Mobile adjust speaker volume of rooms",
+            "featureCode": "B0405"
+        },
+        {
+            "name": "Mobile leave meeting",
+            "featureCode": "B0406"
+        },
+        {
+            "name": "Test baselineFeatureList",
+            "featureCode": "B9903"
+        }
+    ]
+}

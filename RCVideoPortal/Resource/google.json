@@ -1,0 +1,16 @@
+{
+  "deviceList": [{
+    "name": "Pixel",
+    "skuList": ["Pixel 2", "Pixel 2 XL", "Pixel 3", "Pixel 3 XL"],
+    "osList": [{
+      "defaultSetting": {
+        "ecMode": "OSEc",
+        "audioDevice": "os",
+        "sampleRate": "48000",
+        "txAgc": "WebRTCAgc",
+        "txAgcMode": "FixedDigital",
+        "txNsMode": "OSNs"
+      }
+    }]
+  }]
+}

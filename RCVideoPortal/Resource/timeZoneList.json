@@ -1,0 +1,572 @@
+{
+  "data": [
+    {
+      "name": "Pacific/Midway",
+      "description": "Midway Island, Samoa"
+    },
+    {
+      "name": "Pacific/Pago_Pago",
+      "description": "Pago Pago"
+    },
+    {
+      "name": "Pacific/Honolulu",
+      "description": "Hawaii"
+    },
+    {
+      "name": "America/Anchorage",
+      "description": "Alaska"
+    },
+    {
+      "name": "America/Juneau",
+      "description": "Juneau"
+    },
+    {
+      "name": "America/Vancouver",
+      "description": "Vancouver"
+    },
+    {
+      "name": "America/Los_Angeles",
+      "description": "Pacific Time (US and Canada)"
+    },
+    {
+      "name": "America/Tijuana",
+      "description": "Tijuana"
+    },
+    {
+      "name": "America/Edmonton",
+      "description": "Edmonton"
+    },
+    {
+      "name": "America/Denver",
+      "description": "Mountain Time (US and Canada)"
+    },
+    {
+      "name": "America/Phoenix",
+      "description": "Arizona"
+    },
+    {
+      "name": "America/Mazatlan",
+      "description": "Mazatlan"
+    },
+    {
+      "name": "America/Chihuahua",
+      "description": "Chihuahua"
+    },
+    {
+      "name": "America/Winnipeg",
+      "description": "Winnipeg"
+    },
+    {
+      "name": "America/Regina",
+      "description": "Saskatchewan"
+    },
+    {
+      "name": "America/Chicago",
+      "description": "Central Time (US and Canada)"
+    },
+    {
+      "name": "America/Mexico_City",
+      "description": "Mexico City"
+    },
+    {
+      "name": "America/Guatemala",
+      "description": "Guatemala"
+    },
+    {
+      "name": "America/El_Salvador",
+      "description": "El Salvador"
+    },
+    {
+      "name": "America/Managua",
+      "description": "Managua"
+    },
+    {
+      "name": "America/Costa_Rica",
+      "description": "Costa Rica"
+    },
+    {
+      "name": "America/Tegucigalpa",
+      "description": "Tegucigalpa"
+    },
+    {
+      "name": "America/Monterrey",
+      "description": "Monterrey"
+    },
+    {
+      "name": "America/Montreal",
+      "description": "Montreal"
+    },
+    {
+      "name": "America/New_York",
+      "description": "Eastern Time (US and Canada)"
+    },
+    {
+      "name": "America/Indianapolis",
+      "description": "Indiana (East)"
+    },
+    {
+      "name": "America/Panama",
+      "description": "Panama"
+    },
+    {
+      "name": "America/Bogota",
+      "description": "Bogota"
+    },
+    {
+      "name": "America/Lima",
+      "description": "Lima"
+    },
+    {
+      "name": "America/Halifax",
+      "description": "Halifax"
+    },
+    {
+      "name": "America/Puerto_Rico",
+      "description": "Puerto Rico"
+    },
+    {
+      "name": "America/Caracas",
+      "description": "Caracas"
+    },
+    {
+      "name": "Canada/Atlantic",
+      "description": "Atlantic Time (Canada)"
+    },
+    {
+      "name": "America/La_Paz",
+      "description": "La Paz"
+    },
+    {
+      "name": "America/Santiago",
+      "description": "Santiago"
+    },
+    {
+      "name": "America/Guyana",
+      "description": "Guyana"
+    },
+    {
+      "name": "America/St_Johns",
+      "description": "Newfoundland and Labrador"
+    },
+    {
+      "name": "America/Montevideo",
+      "description": "Montevideo"
+    },
+    {
+      "name": "America/Araguaina",
+      "description": "Brasilia"
+    },
+    {
+      "name": "America/Argentina/Buenos_Aires",
+      "description": "Buenos Aires, Georgetown"
+    },
+    {
+      "name": "America/Godthab",
+      "description": "Greenland"
+    },
+    {
+      "name": "America/Sao_Paulo",
+      "description": "Sao Paulo"
+    },
+    {
+      "name": "Atlantic/Azores",
+      "description": "Azores"
+    },
+    {
+      "name": "Atlantic/Cape_Verde",
+      "description": "Cape Verde Islands"
+    },
+    {
+      "name": "UTC",
+      "description": "Universal Time UTC"
+    },
+    {
+      "name": "Etc/Greenwich",
+      "description": "Greenwich Mean Time"
+    },
+    {
+      "name": "Atlantic/Reykjavik",
+      "description": "Reykjavik"
+    },
+    {
+      "name": "Europe/Dublin",
+      "description": "Dublin"
+    },
+    {
+      "name": "Europe/London",
+      "description": "London"
+    },
+    {
+      "name": "Europe/Lisbon",
+      "description": "Lisbon"
+    },
+    {
+      "name": "Africa/Casablanca",
+      "description": "Casablanca"
+    },
+    {
+      "name": "Africa/Nouakchott",
+      "description": "Nouakchott"
+    },
+    {
+      "name": "Europe/Belgrade",
+      "description": "Belgrade, Bratislava, Ljubljana"
+    },
+    {
+      "name": "CET",
+      "description": "Sarajevo, Skopje, Zagreb"
+    },
+    {
+      "name": "Europe/Oslo",
+      "description": "Oslo"
+    },
+    {
+      "name": "Europe/Stockholm",
+      "description": "Stockholm"
+    },
+    {
+      "name": "Europe/Copenhagen",
+      "description": "Copenhagen"
+    },
+    {
+      "name": "Europe/Berlin",
+      "description": "Berlin"
+    },
+    {
+      "name": "Europe/Amsterdam",
+      "description": "Amsterdam"
+    },
+    {
+      "name": "Europe/Brussels",
+      "description": "Brussels"
+    },
+    {
+      "name": "Europe/Luxembourg",
+      "description": "Luxembourg"
+    },
+    {
+      "name": "Europe/Paris",
+      "description": "Paris"
+    },
+    {
+      "name": "Europe/Zurich",
+      "description": "Zurich"
+    },
+    {
+      "name": "Europe/Madrid",
+      "description": "Madrid"
+    },
+    {
+      "name": "Africa/Bangui",
+      "description": "West Central Africa"
+    },
+    {
+      "name": "Europe/Rome",
+      "description": "Rome"
+    },
+    {
+      "name": "Africa/Algiers",
+      "description": "Algiers"
+    },
+    {
+      "name": "Africa/Tunis",
+      "description": "Tunis"
+    },
+    {
+      "name": "Europe/Warsaw",
+      "description": "Warsaw"
+    },
+    {
+      "name": "Europe/Prague",
+      "description": "Prague Bratislava"
+    },
+    {
+      "name": "Europe/Vienna",
+      "description": "Vienna"
+    },
+    {
+      "name": "Europe/Budapest",
+      "description": "Budapest"
+    },
+    {
+      "name": "Europe/Helsinki",
+      "description": "Helsinki"
+    },
+    {
+      "name": "Africa/Harare",
+      "description": "Harare, Pretoria"
+    },
+    {
+      "name": "Europe/Sofia",
+      "description": "Sofia"
+    },
+    {
+      "name": "Europe/Istanbul",
+      "description": "Istanbul"
+    },
+    {
+      "name": "Europe/Athens",
+      "description": "Athens"
+    },
+    {
+      "name": "Europe/Bucharest",
+      "description": "Bucharest"
+    },
+    {
+      "name": "Asia/Nicosia",
+      "description": "Nicosia"
+    },
+    {
+      "name": "Asia/Beirut",
+      "description": "Beirut"
+    },
+    {
+      "name": "Asia/Damascus",
+      "description": "Damascus"
+    },
+    {
+      "name": "Asia/Jerusalem",
+      "description": "Jerusalem"
+    },
+    {
+      "name": "Asia/Amman",
+      "description": "Amman"
+    },
+    {
+      "name": "Africa/Tripoli",
+      "description": "Tripoli"
+    },
+    {
+      "name": "Africa/Cairo",
+      "description": "Cairo"
+    },
+    {
+      "name": "Africa/Johannesburg",
+      "description": "Johannesburg"
+    },
+    {
+      "name": "Europe/Kiev",
+      "description": "Kiev"
+    },
+    {
+      "name": "Africa/Nairobi",
+      "description": "Nairobi"
+    },
+    {
+      "name": "Europe/Moscow",
+      "description": "Moscow"
+    },
+    {
+      "name": "Asia/Baghdad",
+      "description": "Baghdad"
+    },
+    {
+      "name": "Asia/Kuwait",
+      "description": "Kuwait"
+    },
+    {
+      "name": "Asia/Riyadh",
+      "description": "Riyadh"
+    },
+    {
+      "name": "Asia/Bahrain",
+      "description": "Bahrain"
+    },
+    {
+      "name": "Asia/Qatar",
+      "description": "Qatar"
+    },
+    {
+      "name": "Asia/Aden",
+      "description": "Aden"
+    },
+    {
+      "name": "Africa/Khartoum",
+      "description": "Khartoum"
+    },
+    {
+      "name": "Africa/Djibouti",
+      "description": "Djibouti"
+    },
+    {
+      "name": "Africa/Mogadishu",
+      "description": "Mogadishu"
+    },
+    {
+      "name": "Europe/Minsk",
+      "description": "Minsk"
+    },
+    {
+      "name": "Asia/Tehran",
+      "description": "Tehran"
+    },
+    {
+      "name": "Asia/Dubai",
+      "description": "Dubai"
+    },
+    {
+      "name": "Asia/Muscat",
+      "description": "Muscat"
+    },
+    {
+      "name": "Asia/Baku",
+      "description": "Baku, Tbilisi, Yerevan"
+    },
+    {
+      "name": "Asia/Kabul",
+      "description": "Kabul"
+    },
+    {
+      "name": "Asia/Yekaterinburg",
+      "description": "Yekaterinburg"
+    },
+    {
+      "name": "Asia/Tashkent",
+      "description": "Islamabad, Karachi, Tashkent"
+    },
+    {
+      "name": "Asia/Calcutta",
+      "description": "India"
+    },
+    {
+      "name": "Asia/Novosibirsk",
+      "description": "Novosibirsk"
+    },
+    {
+      "name": "Asia/Kolkata",
+      "description": "Mumbai, Kolkata, New Delhi"
+    },
+    {
+      "name": "Asia/Kathmandu",
+      "description": "Kathmandu"
+    },
+    {
+      "name": "Asia/Almaty",
+      "description": "Almaty"
+    },
+    {
+      "name": "Asia/Dacca",
+      "description": "Dacca"
+    },
+    {
+      "name": "Asia/Dhaka",
+      "description": "Astana, Dhaka"
+    },
+    {
+      "name": "Asia/Rangoon",
+      "description": "Rangoon"
+    },
+    {
+      "name": "Asia/Krasnoyarsk",
+      "description": "Krasnoyarsk"
+    },
+    {
+      "name": "Asia/Bangkok",
+      "description": "Bangkok"
+    },
+    {
+      "name": "Asia/Saigon",
+      "description": "Vietnam"
+    },
+    {
+      "name": "Asia/Jakarta",
+      "description": "Jakarta"
+    },
+    {
+      "name": "Asia/Irkutsk",
+      "description": "Irkutsk, Ulaanbaatar"
+    },
+    {
+      "name": "Asia/Shanghai",
+      "description": "Beijing, Shanghai"
+    },
+    {
+      "name": "Asia/Hong_Kong",
+      "description": "Hong Kong"
+    },
+    {
+      "name": "Asia/Taipei",
+      "description": "Taipei"
+    },
+    {
+      "name": "Asia/Kuala_Lumpur",
+      "description": "Kuala Lumpur"
+    },
+    {
+      "name": "Asia/Singapore",
+      "description": "Singapore"
+    },
+    {
+      "name": "Australia/Perth",
+      "description": "Perth"
+    },
+    {
+      "name": "Asia/Yakutsk",
+      "description": "Yakutsk"
+    },
+    {
+      "name": "Asia/Seoul",
+      "description": "Seoul"
+    },
+    {
+      "name": "Asia/Tokyo",
+      "description": "Osaka, Sapporo, Tokyo"
+    },
+    {
+      "name": "Australia/Darwin",
+      "description": "Darwin"
+    },
+    {
+      "name": "Australia/Adelaide",
+      "description": "Adelaide"
+    },
+    {
+      "name": "Asia/Vladivostok",
+      "description": "Vladivostok"
+    },
+    {
+      "name": "Pacific/Port_Moresby",
+      "description": "Guam, Port Moresby"
+    },
+    {
+      "name": "Australia/Brisbane",
+      "description": "Brisbane"
+    },
+    {
+      "name": "Australia/Sydney",
+      "description": "Canberra, Melbourne, Sydney"
+    },
+    {
+      "name": "Australia/Hobart",
+      "description": "Hobart"
+    },
+    {
+      "name": "Asia/Magadan",
+      "description": "Magadan"
+    },
+    {
+      "name": "Pacific/Guadalcanal",
+      "description": "Solomon Islands"
+    },
+    {
+      "name": "Pacific/Noumea",
+      "description": "New Caledonia"
+    },
+    {
+      "name": "Asia/Kamchatka",
+      "description": "Kamchatka"
+    },
+    {
+      "name": "Pacific/Auckland",
+      "description": "Auckland, Wellington"
+    },
+    {
+      "name": "Pacific/Fiji",
+      "description": "Fiji Islands, Marshall Islands"
+    },
+    {
+      "name": "Pacific/Apia",
+      "description": "Independent State of Samoa"
+    }
+  ]
+}

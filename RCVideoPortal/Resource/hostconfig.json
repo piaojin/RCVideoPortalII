@@ -1,0 +1,308 @@
+{
+  "spacing": {
+    "small": 2,
+    "default": 8,
+    "medium": 12,
+    "large": 16,
+    "extraLarge": 24,
+    "padding": 8
+  },
+  "separator": {
+    "lineThickness": 1,
+    "lineColor": "colorNeutralL02"
+  },
+  "supportsInteractivity": true,
+  "imageBaseUrl": "https://pbs.twimg.com/profile_images/3647943215/",
+  "fontTypes": {
+    "default": {
+      "fontFamily": "'Segoe UI', 'sans-serif', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue'",
+      "fontSizes": {
+        "small": 12,
+        "default": 15,
+        "medium": 17,
+        "large": 20,
+        "extraLarge": 28
+      },
+      "fontWeights": {
+        "lighter": 200,
+        "default": 400,
+        "bolder": 600
+      }
+    },
+    "monospace": {
+      "fontFamily": "'Courier New', Courier, monospace",
+      "fontSizes": {
+        "small": 12,
+        "default": 15,
+        "medium": 17,
+        "large": 20,
+        "extraLarge": 28
+      },
+      "fontWeights": {
+        "lighter": 200,
+        "default": 400,
+        "bolder": 600
+      }
+    }
+  },
+  "containerStyles": {
+    "default": {
+      "backgroundColor": "colorNeutralB01",
+      "foregroundColors": {
+        "default": {
+          "default": "colorNeutralF06",
+          "subtle": "colorNeutralF05"
+        },
+        "dark": {
+          "default": "colorNeutralF06",
+          "subtle": "colorNeutralF05"
+        },
+        "light": {
+          "default": "colorNeutralF05",
+          "subtle": "colorNeutralF05#0.70"
+        },
+        "accent": {
+          "default": "colorInformativeF02",
+          "subtle": "colorInformativeF02#0.70"
+        },
+        "attention": {
+          "default": "colorDangerF02",
+          "subtle": "colorDangerF02#0.70"
+        },
+        "good": {
+          "default": "colorSuccessF02",
+          "subtle": "colorSuccessF02#0.70"
+        },
+        "warning": {
+          "default": "colorWarningF02",
+          "subtle": "colorWarningF02#0.70"
+        }
+      }
+    },
+    "emphasis": {
+      "backgroundColor": "colorNeutralB02",
+      "foregroundColors": {
+        "default": {
+          "default": "colorNeutralF06",
+          "subtle": "colorNeutralF05"
+        },
+        "dark": {
+          "default": "colorNeutralF06",
+          "subtle": "colorNeutralF05"
+        },
+        "light": {
+          "default": "colorNeutralF05",
+          "subtle": "colorNeutralF05#0.70"
+        },
+        "accent": {
+          "default": "colorInformativeF02",
+          "subtle": "colorInformativeF02#0.70"
+        },
+        "attention": {
+          "default": "colorDangerF02",
+          "subtle": "colorDangerF02#0.70"
+        },
+        "good": {
+          "default": "colorSuccessF02",
+          "subtle": "colorSuccessF02#0.70"
+        },
+        "warning": {
+          "default": "colorWarningF02",
+          "subtle": "colorWarningF02#0.70"
+        }
+      }
+    },
+    "accent": {
+      "backgroundColor": "colorInformativeB02",
+      "foregroundColors": {
+        "default": {
+          "default": "colorNeutralF06",
+          "subtle": "colorNeutralF05"
+        },
+        "dark": {
+          "default": "colorNeutralF06",
+          "subtle": "colorNeutralF05"
+        },
+        "light": {
+          "default": "colorNeutralF05",
+          "subtle": "colorNeutralF05#0.70"
+        },
+        "accent": {
+          "default": "colorInformativeF02",
+          "subtle": "colorInformativeF02#0.70"
+        },
+        "attention": {
+          "default": "colorDangerF02",
+          "subtle": "colorDangerF02#0.70"
+        },
+        "good": {
+          "default": "colorSuccessF02",
+          "subtle": "colorSuccessF02#0.70"
+        },
+        "warning": {
+          "default": "colorWarningF02",
+          "subtle": "colorWarningF02#0.70"
+        }
+      }
+    },
+    "good": {
+      "backgroundColor": "colorSuccessB02",
+      "foregroundColors": {
+        "default": {
+          "default": "colorNeutralF06",
+          "subtle": "colorNeutralF05"
+        },
+        "dark": {
+          "default": "colorNeutralF06",
+          "subtle": "colorNeutralF05"
+        },
+        "light": {
+          "default": "colorNeutralF05",
+          "subtle": "colorNeutralF05#0.70"
+        },
+        "accent": {
+          "default": "colorInformativeF02",
+          "subtle": "colorInformativeF02#0.70"
+        },
+        "attention": {
+          "default": "colorDangerF02",
+          "subtle": "colorDangerF02#0.70"
+        },
+        "good": {
+          "default": "colorSuccessF02",
+          "subtle": "colorSuccessF02#0.70"
+        },
+        "warning": {
+          "default": "colorWarningF02",
+          "subtle": "colorWarningF02#0.70"
+        }
+      }
+    },
+    "attention": {
+      "backgroundColor": "colorDangerB02",
+      "foregroundColors": {
+        "default": {
+          "default": "colorNeutralF06",
+          "subtle": "colorNeutralF05"
+        },
+        "dark": {
+          "default": "colorNeutralF06",
+          "subtle": "colorNeutralF05"
+        },
+        "light": {
+          "default": "colorNeutralF05",
+          "subtle": "colorNeutralF05#0.70"
+        },
+        "accent": {
+          "default": "colorInformativeF02",
+          "subtle": "colorInformativeF02#0.70"
+        },
+        "attention": {
+          "default": "colorDangerF02",
+          "subtle": "colorDangerF02#0.70"
+        },
+        "good": {
+          "default": "colorSuccessF02",
+          "subtle": "colorSuccessF02#0.70"
+        },
+        "warning": {
+          "default": "colorWarningF02",
+          "subtle": "colorWarningF02#0.70"
+        }
+      }
+    },
+    "warning": {
+      "backgroundColor": "colorWarningB02",
+      "foregroundColors": {
+        "default": {
+          "default": "colorNeutralF06",
+          "subtle": "colorNeutralF05"
+        },
+        "dark": {
+          "default": "colorNeutralF06",
+          "subtle": "colorNeutralF05"
+        },
+        "light": {
+          "default": "colorNeutralF05",
+          "subtle": "colorNeutralF05#0.70"
+        },
+        "accent": {
+          "default": "colorInformativeF02",
+          "subtle": "colorInformativeF02#0.70"
+        },
+        "attention": {
+          "default": "colorDangerF02",
+          "subtle": "colorDangerF02#0.70"
+        },
+        "good": {
+          "default": "colorSuccessF02",
+          "subtle": "colorSuccessF02#0.70"
+        },
+        "warning": {
+          "default": "colorWarningF02",
+          "subtle": "colorWarningF02#0.70"
+        }
+      }
+    }
+  },
+  "imageSizes": {
+    "small": 40,
+    "medium": 80,
+    "large": 160
+  },
+  "actions": {
+    "maxActions": 5,
+    "spacing": "Default",
+    "buttonSpacing": 12,
+    "showCard": {
+      "actionMode": "inline",
+      "inlineTopMargin": 16,
+      "style": "Emphasis"
+    },
+    "preExpandSingleShowCardAction": false,
+    "actionsOrientation": "Horizontal",
+    "actionAlignment": "Stretch"
+  },
+  "adaptiveCard": {
+    "allowCustomStyle": true
+  },
+  "imageSet": {
+    "imageSize": "medium",
+    "maxImageHeight": 100
+  },
+  "factSet": {
+    "title": {
+      "size": "small",
+      "color": "light",
+      "isSubtle": false,
+      "weight": "Default",
+      "warp": true
+    },
+    "value": {
+      "size": "Default",
+      "color": "Default",
+      "isSubtle": false,
+      "weight": "Default",
+      "warp": true
+    },
+    "spacing": 4
+  },
+  "media": {
+    "playButton": "http://adaptivecards.io/content/adaptive-card-50.png",
+    "allowInlinePlayback": true
+  },
+  "inputs":
+  {
+    "label":
+    {
+      "requiredInputs": {
+        "color": "dark",
+        "isSubtle": true
+      },
+      "optionalInputs": {
+        "color": "dark",
+        "isSubtle": true
+      }
+    }
+  }
+}

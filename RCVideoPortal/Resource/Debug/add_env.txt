@@ -1,0 +1,42 @@
+{
+    "id": 1,
+    "name": "Glip",
+    "collectionServer": "https://mthoredc.ringcentral.com",
+    "rc_env": {
+        "apiServer": "https://api-mucc.ringcentral.com",
+        "clientId": "MkCdlSVqQ06H6i7KYcv9bg",
+        "redirectUri": "glip://rclogin",
+        "rcIntegrationCallbackUri": "glip://3rdPartyContacts",
+        "pubNubOrigin": "ringcentral.pubnubapi.com"
+    },
+    "discovery_env": {
+        "initialDiscoveryUrl": "https://api-mucc.ringcentral.com"
+    },
+    "multi_instance_env": {
+        "entryServer": "https://app.glip.com",
+        "internalGdsServer": "http://gds-vip01-int.glip.net",
+        "externalGdsServer": "https://discovery.glip.com"
+    },
+    "glip_env": {
+        "apiServer": "https://app.glip.com",
+        "cacheServer": "https://cache.glip.com",
+        "downloadServer": "https://downloads.glip.com",
+        "statusServer": "https://api.glip.com"
+    },
+    "meetings_env": {
+        "clientId": "KI38mp4Ns033cEC681b94677b9B3AD0bbeFC2Ab1E",
+        "redirectUri": "zoomrc://open",
+        "ttl": 300,
+        "sdkDomain": "ringcentral.zoom.us",
+        "sdkKey": "OcRSj3Z2T5erR9k6rTiUaA",
+        "dialInNumber": "+17732319226"
+    },
+    "rcv_env": {
+        "name": "ENV_RND-PRO-AMS",
+        "RCVPNOrigin": "ringcentral.pubnubapi.com",
+        "RCVTapAddress": "https://api-mucc.ringcentral.com",
+        "RCVPlatformServer": "https://api-mucc.ringcentral.com",
+        "LinkAddress": "https://v.ringcentral.com",
+        "ClientId": "Ijd_4RNySDq5WXP8jvRBzg"
+    }
+}

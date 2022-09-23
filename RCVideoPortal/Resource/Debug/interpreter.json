@@ -1,0 +1,138 @@
+[
+    {
+            "catagory":"common",
+            "key":"themes",
+            "type":"Array",
+            "bssKey": "themes",
+            "rule":
+            {
+                "index": "themeId",
+                "keys":[
+                    {
+                        "key":"themeId",
+                        "bssKey": "themeId",
+                        "type":"String"
+                    },
+                    {
+                        "key":"isSystemDark",
+                        "bssKey": "isSystemDark",
+                        "type":"Bool"
+                    },
+                    {
+                        "key":"isDefault",
+                        "bssKey": "isDefault",
+                        "type":"Bool"
+                    },
+                    {
+                        "key":"appPrimaryColor",
+                        "bssKey": "appPrimaryColor",
+                        "type":"String"
+                    },
+                    {
+                        "key":"appPrimaryColor50",
+                        "bssKey": "appPrimaryColor50",
+                        "type":"String"
+                    },
+                    {
+                        "key":"appPrimaryColor300",
+                        "bssKey": "appPrimaryColor300",
+                        "type":"String"
+                    },
+                    {
+                        "key":"themeType",
+                        "bssKey": "themeType",
+                        "type":"String"
+                    }
+                ]
+            },
+            "destFile":"themes_config"
+        },
+    {
+        "catagory": "common",
+        "key": "meeting_feedback_recipient",
+        "bssKey": "meetingFeedbackEmailAddress",
+        "type": "String",
+        "destFile": "remote_config",
+        "rule": {}
+    },
+    {
+        "catagory": "common",
+        "key": "get_support_url",
+        "bssKey": "supportRootPage",
+        "type": "String",
+        "destFile": "remote_config",
+        "rule": {}
+    },
+    {
+        "catagory": "common",
+        "key": "rcv_feedback_recipient",
+        "bssKey": "videoFeedbackEmailAddress",
+        "type": "String",
+        "destFile": "remote_config",
+        "rule": {}
+    },
+    {
+        "catagory": "common",
+        "key": "learn_more_link",
+        "bssKey": "howItWorksPage",
+        "type": "String",
+        "destFile": "remote_config",
+        "rule": {}
+    },
+    {
+        "catagory": "common",
+        "key": "conferenceSupportUri",
+        "bssKey": "audioConferencingSupportPage",
+        "type": "String",
+        "destFile": "remote_config",
+        "rule": {}
+    },
+    {
+        "catagory": "common",
+        "key": "langNames",
+        "bssKey": "langNames",
+        "type": "LangUrls",
+        "rule": [
+            {
+                "key": "brand_name",
+                "bssKey": "displayName",
+                "type": "String"
+            },
+            {
+                "key": "meetingAppNameV2",
+                "bssKey": "videoProductName",
+                "type": "String"
+            }
+        ],
+        "destFile": "remote_config"
+    },
+    {
+        "catagory": "common",
+        "key": "urls",
+        "bssKey": "urls",
+        "type": "LangUrls",
+        "rule": [
+            {
+                "key": "acceptableUsePolicyLink",
+                "bssKey": "acceptableUsePolicyPage",
+                "type": "String"
+            },
+            {
+                "key": "emergencyServiceLink",
+                "bssKey": "emergencyServicePage",
+                "type": "String"
+            },
+            {
+                "key": "privacyNoticeLink",
+                "bssKey": "privacyPolicyPage",
+                "type": "String"
+            },
+            {
+                "key": "termOfServiceLink",
+                "bssKey": "termsOfServicePage",
+                "type": "String"
+            }
+        ],
+        "destFile": "remote_config"
+    }
+]

@@ -1,0 +1,67 @@
+{
+    "Android": {},
+    "common": {
+        "LinkAddress": "https://v.ringcentral.com",
+        "RCVEDCSAddress": "https://edcs.ringcentral.com",
+        "RCVPlatformServer": "https://api-meet.ringcentral.com",
+        "color-primary": "",
+        "color-primary300": "",
+        "color-primary50": "",
+        "conferenceSupportUri": "https://support.ringcentral.com/article/9065.html",
+        "desktop_app_download_link": "app.ringcentral.com",
+        "emergencyAddressShowAllCountryNames": "RC_US=true\nRC_CA=true\nFedRamp=true\nOthers=false",
+        "get_support_url": "https://support.ringcentral.com",
+        "hasRCVWaterMark": false,
+        "hideAccountCreation": false,
+        "internationalNumberLink": "https://v.ringcentral.com/teleconference/",
+        "inviteContactViaEmailOnly": false,
+        "isERLSupported": "RC_US=true\nRC_CA=true\nFedRamp=true\nOthers=false",
+        "langNames": [
+            {
+                "brand_name": "RingCentral",
+                "language": "default",
+                "meetingAppNameV2": "RingCentral Video"
+            }
+        ],
+        "learn_more_link": "https://www.ringcentral.com/office/how-it-works.html",
+        "meeting_feedback_recipient": "rc_feedback@ringcentral.com",
+        "rcServiceWebUrl": "RC_UK=\"https://service.ringcentral.co.uk\"\nothers=\"https://service.ringcentral.com\"",
+        "rcv_feedback_recipient": "rcv.mobile.feedback@ringcentral.com",
+        "resource_center_enable_rcv_send_feedback": true,
+        "resource_center_legal_show_acceptable_use_policy": true,
+        "resource_center_show_get_support": false,
+        "resource_center_show_report_issue": true,
+        "resource_center_show_share_ideas": true,
+        "short_brand_name": "RingCentral",
+        "should_hide_invite_link": false,
+        "should_show_answer_calling": true,
+        "showDesktopAppEntry": true,
+        "show_emergency_service_policy": true,
+        "show_tos": true,
+        "smb_theme": "rcBlue",
+        "themeName": "rcBlue",
+        "uploadLogDisplayDisclaimer": "RC_US=true\nRC_CA=true\nFedRamp=true\nOthers=false",
+        "urls": [
+            {
+                "acceptableUsePolicyLink": "https://www.ringcentral.com/legal/acceptable-use-policy.html",
+                "emergencyServiceLink": "https://www.ringcentral.com/legal/emergency-services.html",
+                "language": "en-US",
+                "privacyNoticeLink": "https://www.ringcentral.com/legal/privacy-policy.html",
+                "termOfServiceLink": "https://www.ringcentral.com/legal/eulatos.html"
+            },
+            {
+                "acceptableUsePolicyLink": "https://www.ringcentral.fr/legal/acceptable-use-policy.html",
+                "emergencyServiceLink": "https://www.ringcentral.fr/legal/emergency-services.html",
+                "language": "fr-FR",
+                "privacyNoticeLink": "https://www.ringcentral.fr/legal/privacy-policy.html",
+                "termOfServiceLink": "https://www.ringcentral.fr/legal/tos.html"
+            }
+        ],
+        "use_engage": true,
+        "use_help_article": true,
+        "use_pendo": true
+    },
+    "iOS": {
+        "conference_invite_text_chagne": true
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "video": [
+    {
+      "name": "sea",
+      "thumbnail_url": "https://app.dev.glip.net/assets/common/media/banuba/video/sea-21.3.20.2.png",
+      "remote_dir": "common/media/banuba/video",
+      "local_dir": "banuba/video",
+      "version": "21.3.20.2",
+      "file_format": ".mp4"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+"data":[
+{"tag": "AccountService", "enabled" : true},
+{"tag": "MyProfileService", "enabled" : true},
+{"tag": "MessageService", "enabled" : true},
+{"tag": "ContactService", "enabled" : true},
+{"tag": "ItemService", "enabled" : true},
+{"tag": "RequestQueueHandler", "enabled" : true},
+{"tag": "SearchService", "enabled" : true},
+{"tag": "AccountClientInfoServiceTag", "enabled" : true},
+{"tag": "Application", "enabled" : true},
+{"tag": "Network", "enabled" : true},
+{"tag": "SocketIO", "enabled" : true},
+{"tag": "Storage", "enabled" : true},
+{"tag": "Dao", "enabled" : true},
+{"tag": "IncomingDataHandler", "enabled" : true},
+{"tag": "Parse", "enabled" : true},
+{"tag": "HandleSchemeService", "enabled" : true},
+{"tag": "ThreadModel", "enabled" : true},
+{"tag": "NetworkRequestSyncService", "enabled" : true},
+{"tag": "TelephonyService", "enabled" : true},
+{"tag": "Settings", "enabled" : true},
+{"tag": "PhoneNumberAbilityService", "enabled" : true}
+]
+}

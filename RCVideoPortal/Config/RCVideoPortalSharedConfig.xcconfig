@@ -1,0 +1,16 @@
+//
+//  GlipSharedConfig.xcconfig
+//  Glip
+//
+//  Created by Pika Qiu on 2019/6/28.
+//  Copyright © 2019 RingCentral. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "../../Config/AppVersion.xcconfig"
+
+PRODUCT_DISPLAY_NAME = RingCentral
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = $(inherited) RCVideoPortal_TARGET USE_DIMELO
+

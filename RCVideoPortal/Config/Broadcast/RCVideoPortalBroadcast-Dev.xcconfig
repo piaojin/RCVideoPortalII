@@ -1,0 +1,25 @@
+//
+//  BroadcastExtension.xcconfig
+//  Glip
+//
+//  Created by Roger Zhang on 2018/11/9.
+//  Copyright © 2018 RingCentral. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "../RCVideoPortalSharedConfig.xcconfig"
+#include "../../../../ringcentral-II/Glip/Pods/Target Support Files/Pods-BroadcastExtension/Pods-BroadcastExtension.dev.xcconfig"
+
+CODE_SIGN_IDENTITY = Apple Development: Chen Oliver (3776JV4X4G)
+CODE_SIGN_IDENTITY[sdk=iphoneos*] = Apple Development: Chen Oliver (3776JV4X4G)
+
+CODE_SIGN_STYLE = Manual
+DEVELOPMENT_TEAM = M932RC5J66
+
+PROVISIONING_PROFILE_SPECIFIER = RCVideoPortal-BroadcastExtension-Dev
+PROVISIONING_PROFILE = 30dad5a2-c30a-4814-92e7-06bb50291a66
+
+PRODUCT_BUNDLE_IDENTIFIER = com.glip.mobile.broadcastExtension
+// Use the same entitlements as Glip project so that no need to maintain multiple signature files.
+CODE_SIGN_ENTITLEMENTS = $(SRCROOT)/../ringcentral-II/Glip/Glip/Config/Broadcast/GlipBroadcast.entitlements

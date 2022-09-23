@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key></key>
+	<string></string>
+	<key>BrandCodeName</key>
+	<string>RingCentral</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>$(PRODUCT_DISPLAY_NAME)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_DISPLAY_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(SHARED_VERSION_NUMBER)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>glip</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>zoomrc</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>pendo-pairing</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>pendo-f12d6028</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>rcapp</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.glip.mobile.rc</string>
+				<string>com.glip.mobile</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(SHARED_BUILD_NUMBER)</string>
+	<key>DeviceModels</key>
+	<dict>
+		<key>i386</key>
+		<string>Simulator</string>
+		<key>iPad1,1</key>
+		<string>iPad</string>
+		<key>iPad1,2</key>
+		<string>iPad 3G</string>
+		<key>iPad2,1</key>
+		<string>iPad 2 (WiFi)</string>
+		<key>iPad2,2</key>
+		<string>iPad 2 (GSM)</string>
+		<key>iPad2,3</key>
+		<string>iPad 2 (CDMA)</string>
+		<key>iPad2,4</key>
+		<string>iPad 2 (Wi‑Fi, A5R)</string>
+		<key>iPad2,5</key>
+		<string>iPad Mini (WiFi)</string>
+		<key>iPad2,6</key>
+		<string>iPad Mini (GSM)</string>
+		<key>iPad2,7</key>
+		<string>iPad Mini (CDMA)</string>
+		<key>iPad3,1</key>
+		<string>iPad 3 (WiFi)</string>
+		<key>iPad3,2</key>
+		<string>iPad 3 (CDMA)</string>
+		<key>iPad3,3</key>
+		<string>iPad 3 (GSM)</string>
+		<key>iPad3,4</key>
+		<string>iPad 4 (WiFi)</string>
+		<key>iPad3,5</key>
+		<string>iPad 4 (GSM)</string>
+		<key>iPad3,6</key>
+		<string>iPad 4 (CDMA)</string>
+		<key>iPad4,1</key>
+		<string>iPad Air (WiFi)</string>
+		<key>iPad4,2</key>
+		<string>iPad Air (GSM)</string>
+		<key>iPad4,3</key>
+		<string>iPad Air (CDMA)</string>
+		<key>iPad4,4</key>
+		<string>iPad Mini Retina (WiFi)</string>
+		<key>iPad4,5</key>
+		<string>iPad Mini Retina (CDMA)</string>
+		<key>iPad4,6</key>
+		<string>iPad mini 2</string>
+		<key>iPad4,7</key>
+		<string>iPad mini 3</string>
+		<key>iPad4,8</key>
+		<string>iPad mini 3</string>
+		<key>iPad4,9</key>
+		<string>iPad mini 3</string>
+		<key>iPad5,1</key>
+		<string>iPad Mini 4 (WiFi)</string>
+		<key>iPad5,2</key>
+		<string>iPad Mini 4 (LTE)</string>
+		<key>iPad5,3</key>
+		<string>iPad Air 2</string>
+		<key>iPad5,4</key>
+		<string>iPad Air 2</string>
+		<key>iPad6,11</key>
+		<string>iPad 5 (WiFi)</string>
+		<key>iPad6,12</key>
+		<string>iPad 5 (Cellular)</string>
+		<key>iPad6,3</key>
+		<string>iPad Pro (9.7-inch)</string>
+		<key>iPad6,4</key>
+		<string>iPad Pro (9.7-inch)</string>
+		<key>iPad6,7</key>
+		<string>iPad Pro (12.9-inch)</string>
+		<key>iPad6,8</key>
+		<string>iPad Pro (12.9-inch)</string>
+		<key>iPad7,1</key>
+		<string>iPad Pro (12.9-inch, 2nd generation)</string>
+		<key>iPad7,11</key>
+		<string>iPad (10.2-inch, 7th generation)</string>
+		<key>iPad7,12</key>
+		<string>iPad (10.2-inch, 7th generation)</string>
+		<key>iPad7,2</key>
+		<string>iPad Pro (12.9-inch, 2nd generation)</string>
+		<key>iPad7,3</key>
+		<string>iPad Pro (10.5-inch)</string>
+		<key>iPad7,4</key>
+		<string>iPad Pro (10.5-inch)</string>
+		<key>iPhone1,1</key>
+		<string>iPhone 1G</string>
+		<key>iPhone1,2</key>
+		<string>iPhone 3G</string>
+		<key>iPhone10,1</key>
+		<string>iPhone 8</string>
+		<key>iPhone10,2</key>
+		<string>iPhone 8 Plus</string>
+		<key>iPhone10,3</key>
+		<string>iPhone X</string>
+		<key>iPhone10,4</key>
+		<string>iPhone 8</string>
+		<key>iPhone10,5</key>
+		<string>iPhone 8 Plus</string>
+		<key>iPhone10,6</key>
+		<string>iPhone X</string>
+		<key>iPhone11,2</key>
+		<string>iPhone XS</string>
+		<key>iPhone11,4</key>
+		<string>iPhone XS Max</string>
+		<key>iPhone11,6</key>
+		<string>iPhone XS Max</string>
+		<key>iPhone11,8</key>
+		<string>iPhone XR</string>
+		<key>iPhone12,1</key>
+		<string>iPhone 11</string>
+		<key>iPhone12,3</key>
+		<string>iPhone 11 Pro</string>
+		<key>iPhone12,5</key>
+		<string>iPhone 11 Pro Max</string>
+		<key>iPhone2,1</key>
+		<string>iPhone 3GS</string>
+		<key>iPhone3,1</key>
+		<string>iPhone 4 (GSM)</string>
+		<key>iPhone3,2</key>
+		<string>iPhone 4</string>
+		<key>iPhone3,3</key>
+		<string>iPhone 4 (CDMA)</string>
+		<key>iPhone4,1</key>
+		<string>iPhone 4S</string>
+		<key>iPhone5,1</key>
+		<string>iPhone 5 (GSM)</string>
+		<key>iPhone5,2</key>
+		<string>iPhone 5 (GSM+CDMA)</string>
+		<key>iPhone5,3</key>
+		<string>iPhone 5C (GSM)</string>
+		<key>iPhone5,4</key>
+		<string>iPhone 5C (GSM+CDMA)</string>
+		<key>iPhone6,1</key>
+		<string>iPhone 5C (GSM)</string>
+		<key>iPhone6,2</key>
+		<string>iPhone 5C (GSM+CDMA)</string>
+		<key>iPhone7,1</key>
+		<string>iPhone 6 Plus</string>
+		<key>iPhone7,2</key>
+		<string>iPhone 6</string>
+		<key>iPhone8,1</key>
+		<string>iPhone 6S</string>
+		<key>iPhone8,2</key>
+		<string>iPhone 6S Plus</string>
+		<key>iPhone8,4</key>
+		<string>iPhone SE</string>
+		<key>iPhone9,1</key>
+		<string>iPhone 7</string>
+		<key>iPhone9,2</key>
+		<string>iPhone 7 Plus</string>
+		<key>iPhone9,3</key>
+		<string>iPhone 7</string>
+		<key>iPhone9,4</key>
+		<string>iPhone 7 Plus</string>
+		<key>iPod1,1</key>
+		<string>iPod Touch 1G</string>
+		<key>iPod2,1</key>
+		<string>iPod Touch 2G</string>
+		<key>iPod3,1</key>
+		<string>iPod Touch 3G</string>
+		<key>iPod4,1</key>
+		<string>iPod Touch 4G</string>
+		<key>iPod5,1</key>
+		<string>iPod Touch 5G</string>
+		<key>iPod7,1</key>
+		<string>iPod Touch 6G</string>
+		<key>x86_64</key>
+		<string>Simulator</string>
+	</dict>
+	<key>FirebaseCrashlyticsCollectionEnabled</key>
+	<true/>
+	<key>FirebaseDynamicLinksCustomDomains</key>
+	<array>
+		<string>https://appdownload.ringcentral.com</string>
+	</array>
+	<key>INAlternativeAppNames</key>
+	<array>
+		<dict>
+			<key>INAlternativeAppName</key>
+			<string>Glip</string>
+			<key>INAlternativeAppNamePronunciationHint</key>
+			<string>glip</string>
+		</dict>
+	</array>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>com.google.calendar</string>
+		<string>attrcv</string>
+		<string>ms-outlook</string>
+		<string>rcmobile</string>
+		<string>attvr20</string>
+		<string>rctelus</string>
+		<string>zoom</string>
+		<string>zoomrc</string>
+		<string>zoomatt</string>
+		<string>zoombt</string>
+		<string>zoomtelus</string>
+		<string>rcv</string>
+		<string>baidumap</string>
+		<string>comgooglemaps</string>
+		<string>iosamap</string>
+		<string>http</string>
+		<string>https</string>
+		<string>itms-beta</string>
+	</array>
+	<key>LSHasLocalizedDisplayName</key>
+	<true/>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>RingCentral requires access to Bluetooth to control a room.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>RingCentral requires access to Bluetooth to control a room.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>This is required to easily join or schedule meetings from your calendar. Calendar events will not be stored on our servers.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>We need access to your phone&apos;s camera so you can use it in RingCentral to take a photo or have a video call.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Quickly invite your contacts to a video call or chat. No worries, we don&apos;t store your contacts.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Turn on location services to easily find each other, particularly when your contacts want to locate you and guide you to find their office or store.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Turn on location services to easily find each other, particularly when your contacts want to locate you and guide you to find their office or store.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>We need access to your microphone so you can let your call party hear your voice when you&apos;re in an audio or video call.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>We need access to your photo library to be able to save or upload photos.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We need access to your photos so you can select and use your photos and screenshots in RingCentral.</string>
+	<key>NSSiriUsageDescription</key>
+	<string>Use Siri with various RingCentral features.</string>
+	<key>NSUserActivityTypes</key>
+	<array>
+		<string>ConfigurationIntent</string>
+		<string>INSendMessageIntent</string>
+		<string>INStartAudioCallIntent</string>
+		<string>INStartVideoCallIntent</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>remote-notification</string>
+		<string>voip</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>Launch Screen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<false/>
+	<key>UIRequiresPersistentWiFi</key>
+	<true/>
+	<key>UIStatusBarHidden</key>
+	<false/>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
+	<key>UIStatusBarTintParameters</key>
+	<dict>
+		<key>UINavigationBar</key>
+		<dict>
+			<key>Style</key>
+			<string>UIBarStyleDefault</string>
+			<key>Translucent</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<true/>
+	<key>UserAgentName</key>
+	<string>RCAppMobile</string>
+	<key>commitBranch</key>
+	<string></string>
+	<key>commitHashCode</key>
+	<string></string>
+	<key>firebase_performance_collection_enabled</key>
+	<false/>
+</dict>
+</plist>

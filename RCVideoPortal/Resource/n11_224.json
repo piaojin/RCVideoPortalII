@@ -1,0 +1,545 @@
+{
+    "uri": "https://api-mucc.ringcentral.com/restapi/v1.0/client-info/special-number-rule?countryId=224&page=1&perPage=100",
+    "records": [
+        {
+            "phoneNumber": "100",
+            "description": "Customer Service",
+            "features": {
+                "voip": {
+                    "enabled": true
+                },
+                "ringOut": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-101",
+                        "message": "Call to this service is unavailable"
+                    }
+                },
+                "sms": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-103",
+                        "message": "Message to this service is unavailable"
+                    }
+                },
+                "faxOut": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-103",
+                        "message": "Message to this service is unavailable"
+                    }
+                }
+            }
+        },
+        {
+            "phoneNumber": "101",
+            "description": "Non-Emergency Police",
+            "features": {
+                "voip": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-102",
+                        "message": "Switch to native dialer"
+                    }
+                },
+                "ringOut": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-102",
+                        "message": "Switch to native dialer"
+                    }
+                },
+                "sms": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-103",
+                        "message": "Message to this service is unavailable"
+                    }
+                },
+                "faxOut": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-103",
+                        "message": "Message to this service is unavailable"
+                    }
+                }
+            }
+        },
+        {
+            "phoneNumber": "111",
+            "description": "Non-Urgent Health Care (NHS)",
+            "features": {
+                "voip": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-102",
+                        "message": "Switch to native dialer"
+                    }
+                },
+                "ringOut": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-102",
+                        "message": "Switch to native dialer"
+                    }
+                },
+                "sms": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-103",
+                        "message": "Message to this service is unavailable"
+                    }
+                },
+                "faxOut": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-103",
+                        "message": "Message to this service is unavailable"
+                    }
+                }
+            }
+        },
+        {
+            "phoneNumber": "112",
+            "description": "Emergency",
+            "features": {
+                "voip": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-102",
+                        "message": "Switch to native dialer"
+                    }
+                },
+                "ringOut": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-102",
+                        "message": "Switch to native dialer"
+                    }
+                },
+                "sms": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-103",
+                        "message": "Message to this service is unavailable"
+                    }
+                },
+                "faxOut": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-103",
+                        "message": "Message to this service is unavailable"
+                    }
+                }
+            }
+        },
+        {
+            "phoneNumber": "116000",
+            "description": "Missing People Hotline",
+            "features": {
+                "voip": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-101",
+                        "message": "Call to this service is unavailable"
+                    }
+                },
+                "ringOut": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-101",
+                        "message": "Call to this service is unavailable"
+                    }
+                },
+                "sms": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-103",
+                        "message": "Message to this service is unavailable"
+                    }
+                },
+                "faxOut": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-103",
+                        "message": "Message to this service is unavailable"
+                    }
+                }
+            }
+        },
+        {
+            "phoneNumber": "116111",
+            "description": "Child Helpline",
+            "features": {
+                "voip": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-101",
+                        "message": "Call to this service is unavailable"
+                    }
+                },
+                "ringOut": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-101",
+                        "message": "Call to this service is unavailable"
+                    }
+                },
+                "sms": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-103",
+                        "message": "Message to this service is unavailable"
+                    }
+                },
+                "faxOut": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-103",
+                        "message": "Message to this service is unavailable"
+                    }
+                }
+            }
+        },
+        {
+            "phoneNumber": "116123",
+            "description": "Emotional Support Helpline",
+            "features": {
+                "voip": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-101",
+                        "message": "Call to this service is unavailable"
+                    }
+                },
+                "ringOut": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-101",
+                        "message": "Call to this service is unavailable"
+                    }
+                },
+                "sms": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-103",
+                        "message": "Message to this service is unavailable"
+                    }
+                },
+                "faxOut": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-103",
+                        "message": "Message to this service is unavailable"
+                    }
+                }
+            }
+        },
+        {
+            "phoneNumber": "116XXX",
+            "description": "Harmonised service of social value",
+            "features": {
+                "voip": {
+                    "enabled": true
+                },
+                "ringOut": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-101",
+                        "message": "Call to this service is unavailable"
+                    }
+                },
+                "sms": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-103",
+                        "message": "Message to this service is unavailable"
+                    }
+                },
+                "faxOut": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-103",
+                        "message": "Message to this service is unavailable"
+                    }
+                }
+            }
+        },
+        {
+            "phoneNumber": "118XXX",
+            "description": "Directory Assistance",
+            "features": {
+                "voip": {
+                    "enabled": true
+                },
+                "ringOut": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-101",
+                        "message": "Call to this service is unavailable"
+                    }
+                },
+                "sms": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-103",
+                        "message": "Message to this service is unavailable"
+                    }
+                },
+                "faxOut": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-103",
+                        "message": "Message to this service is unavailable"
+                    }
+                }
+            }
+        },
+        {
+            "phoneNumber": "123",
+            "description": "Speaking Clock",
+            "features": {
+                "voip": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-101",
+                        "message": "Call to this service is unavailable"
+                    }
+                },
+                "ringOut": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-101",
+                        "message": "Call to this service is unavailable"
+                    }
+                },
+                "sms": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-103",
+                        "message": "Message to this service is unavailable"
+                    }
+                },
+                "faxOut": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-103",
+                        "message": "Message to this service is unavailable"
+                    }
+                }
+            }
+        },
+        {
+            "phoneNumber": "155",
+            "description": "International operator assistance",
+            "features": {
+                "voip": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-101",
+                        "message": "Call to this service is unavailable"
+                    }
+                },
+                "ringOut": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-101",
+                        "message": "Call to this service is unavailable"
+                    }
+                },
+                "sms": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-103",
+                        "message": "Message to this service is unavailable"
+                    }
+                },
+                "faxOut": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-103",
+                        "message": "Message to this service is unavailable"
+                    }
+                }
+            }
+        },
+        {
+            "phoneNumber": "18000",
+            "description": "Emergency for Text Relay",
+            "features": {
+                "voip": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-101",
+                        "message": "Call to this service is unavailable"
+                    }
+                },
+                "ringOut": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-101",
+                        "message": "Call to this service is unavailable"
+                    }
+                },
+                "sms": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-103",
+                        "message": "Message to this service is unavailable"
+                    }
+                },
+                "faxOut": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-103",
+                        "message": "Message to this service is unavailable"
+                    }
+                }
+            }
+        },
+        {
+            "phoneNumber": "18002%",
+            "description": "Text Relay for hearing impaired",
+            "features": {
+                "voip": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-101",
+                        "message": "Call to this service is unavailable"
+                    }
+                },
+                "ringOut": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-101",
+                        "message": "Call to this service is unavailable"
+                    }
+                },
+                "sms": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-103",
+                        "message": "Message to this service is unavailable"
+                    }
+                },
+                "faxOut": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-103",
+                        "message": "Message to this service is unavailable"
+                    }
+                }
+            }
+        },
+        {
+            "phoneNumber": "08001111",
+            "description": "Childline",
+            "features": {
+                "voip": {
+                    "enabled": true
+                },
+                "ringOut": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-101",
+                        "message": "Call to this service is unavailable"
+                    }
+                },
+                "sms": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-103",
+                        "message": "Message to this service is unavailable"
+                    }
+                },
+                "faxOut": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-103",
+                        "message": "Message to this service is unavailable"
+                    }
+                }
+            }
+        },
+        {
+            "phoneNumber": "611",
+            "description": "RC Customer Support Service",
+            "features": {
+                "voip": {
+                    "enabled": true
+                },
+                "ringOut": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-101",
+                        "message": "Call to this service is unavailable"
+                    }
+                },
+                "sms": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-103",
+                        "message": "Message to this service is unavailable"
+                    }
+                },
+                "faxOut": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-103",
+                        "message": "Message to this service is unavailable"
+                    }
+                }
+            }
+        },
+        {
+            "phoneNumber": "999",
+            "description": "Emergency",
+            "features": {
+                "voip": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-102",
+                        "message": "Switch to native dialer"
+                    }
+                },
+                "ringOut": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-102",
+                        "message": "Switch to native dialer"
+                    }
+                },
+                "sms": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-103",
+                        "message": "Message to this service is unavailable"
+                    }
+                },
+                "faxOut": {
+                    "enabled": false,
+                    "reason": {
+                        "id": "N11-103",
+                        "message": "Message to this service is unavailable"
+                    }
+                }
+            }
+        }
+    ],
+    "paging": {
+        "page": 1,
+        "perPage": 100,
+        "pageStart": 0,
+        "pageEnd": 15,
+        "totalPages": 1,
+        "totalElements": 16
+    },
+    "navigation": {
+        "firstPage": {
+            "uri": "https://api-mucc.ringcentral.com/restapi/v1.0/client-info/special-number-rule?countryId=224&page=1&perPage=100"
+        },
+        "lastPage": {
+            "uri": "https://api-mucc.ringcentral.com/restapi/v1.0/client-info/special-number-rule?countryId=224&page=1&perPage=100"
+        }
+    }
+}

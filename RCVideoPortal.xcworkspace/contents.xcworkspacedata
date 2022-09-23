@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:RCVideoPortal.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../ringcentral-II/Glip/Glip/Module/Auth/Auth.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../ringcentral-II/Glip/Glip/Module/Common/Common.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../ringcentral-II/Glip/Glip/Module/Contact/Contact.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../ringcentral-II/Glip/Glip/Module/Container/Container.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../ringcentral-II/Glip/Glip/Module/Debug/Debug.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../ringcentral-II/Glip/Glip/Module/Message/Message.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../ringcentral-II/Glip/Glip/Module/Phone/Phone.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../ringcentral-II/Glip/Glip/Module/Setting/Setting.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../ringcentral-II/Glip/Glip/Module/Video/Video.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../ringcentral-II/Glip/Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

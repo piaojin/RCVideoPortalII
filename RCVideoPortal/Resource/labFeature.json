@@ -1,0 +1,9 @@
+{
+  "featureList" : [
+    {
+        "name" : "m-use-pinconversation",
+        "minimumVersion" : 0,
+        "defaultValue" : false
+    }
+  ]
+}

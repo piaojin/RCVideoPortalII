@@ -1,0 +1,27 @@
+//
+//  BroadcastExtension-adhoc.xcconfig
+//  Glip
+//
+//  Created by Roger Zhang on 2018/11/9.
+//  Copyright © 2018 RingCentral. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "../RCVideoPortalSharedConfig.xcconfig"
+#include "../../../../ringcentral-II/Glip/Pods/Target Support Files/Pods-BroadcastExtension/Pods-BroadcastExtension.adhoc.xcconfig"
+
+CODE_SIGN_IDENTITY = iPhone Distribution: RingCentral
+CODE_SIGN_IDENTITY[sdk=iphoneos*] = iPhone Distribution: RingCentral
+
+CODE_SIGN_STYLE = Manual
+DEVELOPMENT_TEAM = 699KR4R4WY
+
+
+PROVISIONING_PROFILE_SPECIFIER = RingCentralBroadcastAdHoc
+PROVISIONING_PROFILE = b78cc2f1-35da-4a34-b6fa-d7e106ccb30d
+
+
+PRODUCT_BUNDLE_IDENTIFIER = com.glip.mobile.rc.broadcastExtension
+// Use the same entitlements as Glip project so that no need to maintain multiple signature files.
+CODE_SIGN_ENTITLEMENTS = $(SRCROOT)/../ringcentral-II/Glip/Glip/Config/Broadcast/GlipBroadcastInhouse.entitlements

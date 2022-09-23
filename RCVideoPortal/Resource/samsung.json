@@ -1,0 +1,61 @@
+{
+    "deviceList": [{
+        "name": "Note5",
+        "skuList": ["SM-N920"],
+        "osList": [{
+            "defaultSetting": {
+                "ecMode": "AEC",
+                "ecLevel": "Moderate",
+                "highPassFilter": "false",
+                "audioDevice": "os",
+                "sampleRate": "16000",
+                "txAgc": "WebRTCAgc",
+                "txAgcMode": "FixedDigital",
+                "txNsMode": "WebRTCNs",
+                "txNsLevel": "Moderate"
+            }
+        }]
+    },{
+        "name": "Note10+",
+        "skuList": ["SM-N9750"],
+        "osList": [{
+            "defaultSetting": {
+                "ecMode": "EcOff",
+                "highPassFilter": "false",
+                "audioDevice": "opensles"
+            }
+        }]
+    },{
+        "name": "S6",
+        "skuList": ["SM-G920A"],
+        "osList": [{
+            "defaultSetting": {
+                "ecMode": "EcOff",
+                "audioDevice": "opensles"
+            }
+        }]
+    },{
+        "name": "S8",
+        "skuList": ["SM-G950"],
+        "osList": [{
+            "defaultSetting": {
+                "ecMode": "EcOff",
+                "audioDevice": "opensles",
+                "txNsMode": "WebRTCNs",
+                "txNsLevel": "Low"
+            }
+        }]
+    },{
+        "name": "S9",
+        "skuList": ["SM-G960"],
+        "osList": [{
+            "defaultSetting": {
+                "ecMode": "EcOff",
+                "highPassFilter": "false",
+                "audioDevice": "opensles",
+                "txAgc": "AgcOff",
+                "txNsMode": "NsOff"
+            }
+        }]
+    }]
+}

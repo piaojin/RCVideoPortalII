@@ -1,0 +1,54 @@
+<!doctype html>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=2.0,minimum-scale=0.5">
+<html ng-app="JSONedit">
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.22/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-sortable/0.19.0/sortable.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css"
+          rel="stylesheet" type="text/css"/>
+
+    <script src="./directives.js"></script>
+    <script src="./JSONedit.js"></script>
+    <link href="./styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="mainView" ng-controller="MainViewCtrl">
+    <div class="jsonView">
+        <json child="jsonData" default-collapsed="false" type="object"></json>
+    </div>
+
+    <hr>
+    <div>
+        <textarea id="jsonTextarea" ng-model="jsonString" ng-trim="false"></textarea>
+        <span class="red" ng-if="!wellFormed">JSON not well-formed!</span>
+    </div>
+</div>
+<div align="center">
+    <button id="submitButton" type="button" class="btn btn-lg btn-primary" disabled>Save</button>
+</div>
+</body>
+<script>
+    var getUrlParameter = function getUrlParameter(sParam) {
+        var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+            sURLVariables = sPageURL.split('&'),
+            sParameterName,
+            i;
+
+        for (i = 0; i < sURLVariables.length; i++) {
+            sParameterName = sURLVariables[i].split('=');
+            if (sParameterName[0] === sParam) {
+                return sParameterName[1] === undefined ? true : sParameterName[1];
+            }
+        }
+        return null;
+    };
+
+    $("#submitButton").click(function () {
+        $.post("/conf", {"id":getUrlParameter("id"), "configuration":$("#jsonTextarea").val()}, function(data) {
+            alert("Saved successfully")
+        });
+    });
+</script>
+</html>

@@ -1,0 +1,199 @@
+{
+    "version": "2.1",
+    "envList": [
+        {
+            "id": 1,
+            "name": "Glip",
+            "awsS3Server": "https://s3.amazonaws.com",
+            "cdnServer" : "https://app.ringcentral.com/assets",
+            "cdnBizServer" : "https://app.ringcentral.biz/assets",
+            "collectionServer": "https://mthoredc.ringcentral.com",
+            "andonServer": "https://andon-collector.int.rclabenv.com:9090/andon/mthor/log/create",
+            "defaultGoogleFilePickerUrl": "https://app.ringcentral.com/gdrive/my-drive/folder",
+            "google_file_picker_url_list": [{
+                "brandId": "2210",
+                "googleFilePickerUrl": "https://app.ringcentral.biz/gdrive/my-drive/folder"
+            }],
+            "discovery_env": {
+               "initialDiscoveryUrl": "https://discovery.ringcentral.biz"
+            },
+            "rc_env": {
+                "apiServer": "https://api-mucc.ringcentral.com",
+                "clientId": "MkCdlSVqQ06H6i7KYcv9bg",
+                "redirectUri": "glip://rclogin",
+                "rcIntegrationCallbackUri": "glip://3rdPartyContacts",
+                "pubNubOrigin": "ringcentral.pubnubapi.com"
+            },
+            "multi_instance_env": {
+                "entryServer": "https://entry.glip.com",
+                "internalGdsServer": "http://gds-vip01-int.glip.net",
+                "externalGdsServer": "https://discovery.glip.com"
+            },
+            "multi_instance_biz_env": {
+                "entryServer": "https://entry.glip.ringcentral.biz",
+                "internalGdsServer": "http://gds-zeta-int.glip.prof.ringcentral.biz",
+                "externalGdsServer": "https://discovery.glip.ringcentral.biz"
+            },
+            "glip_env": {
+                "apiServer": "https://app.glip.com",
+                "cacheServer": "https://cache.glip.com",
+                "downloadServer": "https://downloads.glip.com",
+                "statusServer": "https://api.glip.com"
+            },
+            "glip_biz_env": {
+                "apiServer": "https://gsx.verizon.ringcentral.biz",
+                "cacheServer": "https://cache.verizon.ringcentral.biz",
+                "downloadServer": "https://dl.mvp.ringcentral.biz",
+                "statusServer": "https://api.verizon.ringcentral.biz"
+            },
+            "meetings_env": {
+                "clientId": "KI38mp4Ns033cEC681b94677b9B3AD0bbeFC2Ab1E",
+                "redirectUri": "zoomrc://open",
+                "ttl": 300,
+                "sdkDomain": "rcm.ringcentral.com",
+                "sdkKey": "OcRSj3Z2T5erR9k6rTiUaA",
+                "dialInNumber": "+17732319226"
+            },
+            "rcv_env": {
+                "brandId": "1210",
+                "BKOSHost": "api.e2ee.ringcentral.com",
+                "name": "ENV_RND-PRO-AMS",
+                "RCVEDCSAddress": "https://edcs.ringcentral.com",
+                "RCVPNOrigin": "ringcentral.pubnubapi.com",
+                "RCVTapAddress": "https://api-meet.ringcentral.com",
+                "RCVPlatformServer": "https://api-meet.ringcentral.com",
+                "LinkAddress": "https://v.ringcentral.com",
+                "ClientId": "Ijd_4RNySDq5WXP8jvRBzg",
+                "cesHost": "ces.srs.ringcentral.com",
+                "whiteBoardUrl": "https://whiteboard.srs.ringcentral.com",
+                "LiveTranscriptionWss": "wss://api.mn.srs.ringcentral.com/mn-api/ws"
+            },
+            "dynamic_rcv_env_list": [{
+                "brandId": "1210",
+                "name": "ENV_RND-PRO-AMS",
+                "BKOSHost": "api.e2ee.ringcentral.com",
+                "RCVEDCSAddress": "https://edcs.ringcentral.com",
+                "RCVPNOrigin": "ringcentral.pubnubapi.com",
+                "RCVTapAddress": "https://api-meet.ringcentral.com",
+                "RCVPlatformServer": "https://api-meet.ringcentral.com",
+                "LinkAddress": "https://v.ringcentral.com",
+                "ClientId": "Ijd_4RNySDq5WXP8jvRBzg",
+                "cesHost": "ces.srs.ringcentral.com",
+                "whiteBoardUrl": "https://whiteboard.srs.ringcentral.com",
+                "LiveTranscriptionWss": "wss://api.mn.srs.ringcentral.com/mn-api/ws"
+            },
+            {
+                "brandId": "2210",
+                "name": "ENV_RND-PRO-AMS",
+                "BKOSHost": "api.e2ee.ringcentral.biz",
+                "RCVEDCSAddress": "https://edcs.ringcentral.biz",
+                "RCVPNOrigin": "ringcentral.pubnubapi.com",
+                "RCVTapAddress": "https://api-meet.ringcentral.biz",
+                "RCVPlatformServer": "https://api-meet.ringcentral.biz",
+                "LinkAddress": "https://verizon.video.ringcentral.biz",
+                "ClientId": "Ijd_4RNySDq5WXP8jvRBzg",
+                "cesHost": "",
+                "whiteBoardUrl": "",
+                "LiveTranscriptionWss": "wss://api.mn.srs.ringcentral.com/mn-api/ws"
+            },
+            {
+                "brandId": "4210",
+                "name": "ENV_RND-PRO-AMS",
+                "BKOSHost": "api.eu.e2ee.ringcentral.com",
+                "RCVEDCSAddress": "https://edcs.ringcentral.com",
+                "RCVPNOrigin": "ringcentral.pubnubapi.com",
+                "RCVTapAddress": "https://api-meet.ringcentral.com",
+                "RCVPlatformServer": "https://api-meet.ringcentral.com",
+                "LinkAddress": "https://ecotel.video.ringcentral.com",
+                "ClientId": "Ijd_4RNySDq5WXP8jvRBzg",
+                "cesHost": "ces.srs.ringcentral.com",
+                "whiteBoardUrl": "https://whiteboard.srs.ringcentral.com",
+                "LiveTranscriptionWss": "wss://api.mn.srs.ringcentral.com/mn-api/ws"
+            },
+            {
+                "brandId": "4810",
+                "name": "ENV_RND-PRO-AMS",
+                "BKOSHost": "api.e2ee.ringcentral.com",
+                "RCVEDCSAddress": "https://edcs.ringcentral.com",
+                "RCVPNOrigin": "ringcentral.pubnubapi.com",
+                "RCVTapAddress": "https://api-meet.ringcentral.com",
+                "RCVPlatformServer": "https://api-meet.ringcentral.com",
+                "LinkAddress": "https://symphony.video.ringcentral.com",
+                "ClientId": "Ijd_4RNySDq5WXP8jvRBzg",
+                "cesHost": "ces.srs.ringcentral.com",
+                "whiteBoardUrl": "https://whiteboard.srs.ringcentral.com",
+                "LiveTranscriptionWss": "wss://api.mn.srs.ringcentral.com/mn-api/ws"
+            },
+            {
+                "brandId": "4610",
+                "name": "ENV_RND-PRO-AMS",
+                "BKOSHost": "api.e2ee.ringcentral.com",
+                "RCVEDCSAddress": "https://edcs.ringcentral.com",
+                "RCVPNOrigin": "ringcentral.pubnubapi.com",
+                "RCVTapAddress": "https://api-meet.ringcentral.com",
+                "RCVPlatformServer": "https://api-meet.ringcentral.com",
+                "LinkAddress": "https://eastlink.video.ringcentral.com",
+                "ClientId": "Ijd_4RNySDq5WXP8jvRBzg",
+                "cesHost": "ces.srs.ringcentral.com",
+                "whiteBoardUrl": "https://whiteboard.srs.ringcentral.com",
+                "LiveTranscriptionWss": "wss://api.mn.srs.ringcentral.com/mn-api/ws"
+            },
+            {
+                "brandId": "4710",
+                "name": "ENV_RND-PRO-AMS",
+                "BKOSHost": "api.eu.e2ee.ringcentral.com",
+                "RCVEDCSAddress": "https://edcs.ringcentral.com",
+                "RCVPNOrigin": "ringcentral.pubnubapi.com",
+                "RCVTapAddress": "https://api-meet.ringcentral.com",
+                "RCVPlatformServer": "https://api-meet.ringcentral.com",
+                "LinkAddress": "https://1und1.video.ringcentral.com",
+                "ClientId": "Ijd_4RNySDq5WXP8jvRBzg",
+                "cesHost": "ces.srs.ringcentral.com",
+                "whiteBoardUrl": "https://whiteboard.srs.ringcentral.com",
+                "LiveTranscriptionWss": "wss://api.mn.srs.ringcentral.com/mn-api/ws"
+            },
+            {
+                "brandId": "4910",
+                "name": "ENV_RND-PRO-AMS",
+                "BKOSHost": "api.e2ee.ringcentral.com",
+                "RCVEDCSAddress": "https://edcs.ringcentral.com",
+                "RCVPNOrigin": "ringcentral.pubnubapi.com",
+                "RCVTapAddress": "https://api-meet.ringcentral.com",
+                "RCVPlatformServer": "https://api-meet.ringcentral.com",
+                "LinkAddress": "https://frontier.video.ringcentral.com",
+                "ClientId": "Ijd_4RNySDq5WXP8jvRBzg",
+                "cesHost": "ces.srs.ringcentral.com",
+                "whiteBoardUrl": "https://whiteboard.srs.ringcentral.com",
+                "LiveTranscriptionWss": "wss://api.mn.srs.ringcentral.com/mn-api/ws"
+            },
+            {
+                "brandId": "2030",
+                "name": "ENV_RND-PRO-AMS",
+                "BKOSHost": "api.eu.e2ee.ringcentral.com",
+                "RCVEDCSAddress": "https://edcs.ringcentral.com",
+                "RCVPNOrigin": "ringcentral.pubnubapi.com",
+                "RCVTapAddress": "https://api-meet.ringcentral.com",
+                "RCVPlatformServer": "https://api-meet.ringcentral.com",
+                "LinkAddress": "https://telekom.video.ringcentral.com/",
+                "ClientId": "Ijd_4RNySDq5WXP8jvRBzg",
+                "cesHost": "ces.srs.ringcentral.com",
+                "whiteBoardUrl": "https://whiteboard.srs.ringcentral.com",
+                "LiveTranscriptionWss": "wss://api.mn.srs.ringcentral.com/mn-api/ws"
+            },
+            {
+                "brandId": "2040",
+                "name": "ENV_RND-PRO-AMS",
+                "BKOSHost": "api.eu.e2ee.ringcentral.com",
+                "RCVEDCSAddress": "https://edcs.ringcentral.com",
+                "RCVPNOrigin": "ringcentral.pubnubapi.com",
+                "RCVTapAddress": "https://api-meet.ringcentral.com",
+                "RCVPlatformServer": "https://api-meet.ringcentral.com",
+                "LinkAddress": "https://unifyoffice-telekom.video.ringcentral.com",
+                "ClientId": "Ijd_4RNySDq5WXP8jvRBzg",
+                "cesHost": "ces.srs.ringcentral.com",
+                "whiteBoardUrl": "https://whiteboard.srs.ringcentral.com",
+                "LiveTranscriptionWss": "wss://api.mn.srs.ringcentral.com/mn-api/ws"
+            }]
+        }
+    ]
+}

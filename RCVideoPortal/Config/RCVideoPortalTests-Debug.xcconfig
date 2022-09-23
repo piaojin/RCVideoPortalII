@@ -1,0 +1,18 @@
+//
+//  GlipTests-Debug.xcconfig
+//  Glip
+//
+//  Created by Edgar Yang on 2020/12/8.
+//  Copyright © 2020 RingCentral. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "RCVideoPortalSharedConfig.xcconfig"
+#include "../../Pods/Target Support Files/Pods-RCUATests/Pods-RCUATests.debug.xcconfig"
+
+PRODUCT_DISPLAY_NAME = RCDebug
+PRODUCT_BUNDLE_IDENTIFIER = com.glip.mobile
+// Use the same entitlements as Glip project so that no need to maintain multiple signature files.
+CODE_SIGN_ENTITLEMENTS = $(SRCROOT)/../ringcentral-II/Glip/Glip/Config/Glip.entitlements

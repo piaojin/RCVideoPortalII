@@ -1,0 +1,452 @@
+{
+  "effect": [
+    {
+      "name": "2_5D_FlowersSunglasses",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.004.086-c25ba83bbd",
+      "file_format": ".zip"
+    },
+    {
+      "name": "GlassFire",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.018.086-d532eeb4c9",
+      "file_format": ".zip"
+    },
+    {
+      "name": "BWColorGlass",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.009.086-318715e9b9",
+      "file_format": ".zip"
+    },
+    {
+      "name": "CartoonOctopus",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.031.086-b09d15761b",
+      "file_format": ".zip"
+    },
+    {
+      "name": "Idea",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.019.086-015e520444",
+      "file_format": ".zip"
+    },
+    {
+      "name": "BurningMan",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.025.086-ac153c9b0b",
+      "file_format": ".zip"
+    },
+    {
+      "name": "2_5D_BlackCat",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.006.086-30dfce4400",
+      "file_format": ".zip"
+    },
+    {
+      "name": "WeatherMoodRain",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.006.086-c8dd17485b",
+      "file_format": ".zip"
+    },
+    {
+      "name": "WeatherMoodSunny",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.001.086-02a3baf657",
+      "file_format": ".zip"
+    },
+    {
+      "name": "CubemapEverest",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.015.086-b2fe27f95g",
+      "file_format": ".zip"
+    },
+    {
+      "name": "CharlieChaplin",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.009.086-9e17cd60dd",
+      "file_format": ".zip"
+    },
+    {
+      "name": "ironman",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.025.086-3379be3abd",
+      "file_format": ".zip"
+    },
+    {
+      "name": "2_5D_HeartSunglasses",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.004.086-a1a399a06a",
+      "file_format": ".zip"
+    },
+    {
+      "name": "BWColorGlass2",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.001.086-acd240f1d9",
+      "file_format": ".zip"
+    },
+    {
+      "name": "StrangerThingsMen",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.001.086-43fd824a75",
+      "file_format": ".zip"
+    },
+    {
+      "name": "GirlLove",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.003.086-a4246d5fe3",
+      "file_format": ".zip"
+    },
+    {
+      "name": "PineappleGlasses",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.002.086-5ae030621e",
+      "file_format": ".zip"
+    },
+    {
+      "name": "BurningMan2018",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.009.086-4834f21a79",
+      "file_format": ".zip"
+    },
+    {
+      "name": "BurningMan2018Fem",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.005.086-96c9322c45",
+      "file_format": ".zip"
+    },
+    {
+      "name": "Olimp",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.010.086-b4e69d8205",
+      "file_format": ".zip"
+    },
+    {
+      "name": "Carnival",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.010.086-5966cabde8",
+      "file_format": ".zip"
+    },
+    {
+      "name": "Freckles",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.015.086-172e3d4b4a",
+      "file_format": ".zip"
+    },
+    {
+      "name": "FloppyHatSummer",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.008.086-d2fe0ebdd5",
+      "file_format": ".zip"
+    },
+    {
+      "name": "MorphingEightPieceCap",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.011.086-1bc0596e30",
+      "file_format": ".zip"
+    },
+    {
+      "name": "MatrixSunglasses",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.007.086-7a20ec1eea",
+      "file_format": ".zip"
+    },
+    {
+      "name": "HWitch2",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.005.086-36c529f32a",
+      "file_format": ".zip"
+    },
+    {
+      "name": "FashionHistory1920_male",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.014.086-fa99343cef",
+      "file_format": ".zip"
+    },
+    {
+      "name": "FashionHistory1930",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.020.086-adfd0debc6",
+      "file_format": ".zip"
+    },
+    {
+      "name": "FashionHistory1930_male",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.019.086-4357a97cf2",
+      "file_format": ".zip"
+    },
+    {
+      "name": "FashionHistory1940_male",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.017.086-761d52f561",
+      "file_format": ".zip"
+    },
+    {
+      "name": "2_5D_Rabbit2",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.002.086-c9aa0887bc",
+      "file_format": ".zip"
+    },
+    {
+      "name": "Doggy",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.001.086-53a1985088",
+      "file_format": ".zip"
+    },
+    {
+      "name": "2_5D_SpringCat",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.008.086-2c4393a4fe",
+      "file_format": ".zip"
+    },
+    {
+      "name": "2_5D_WhiteDog",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.005.086-681c12639f",
+      "file_format": ".zip"
+    },
+    {
+      "name": "2_5D_WhiteCat",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.007.086-32032dff12",
+      "file_format": ".zip"
+    },
+    {
+      "name": "Leopard",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.006.086-63957eae7e",
+      "file_format": ".zip"
+    },
+    {
+      "name": "LionKingSimba",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.003.086-b8e0692d7f",
+      "file_format": ".zip"
+    },
+    {
+      "name": "DeerLight",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.015.086-71f6f0d64a",
+      "file_format": ".zip"
+    },
+    {
+      "name": "Butterflies2",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.003.086-5071fa5578",
+      "file_format": ".zip"
+    },
+    {
+      "name": "DeerLight2",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.002.086-dea1d20b36",
+      "file_format": ".zip"
+    },
+    {
+      "name": "fx_Butterflies_beautify",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.007.086-274f546adf",
+      "file_format": ".zip"
+    },
+    {
+      "name": "SpaceAround",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.003.086-00541d0443",
+      "file_format": ".zip"
+    },
+    {
+      "name": "TV",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.019.086-7501f97b8e",
+      "file_format": ".zip"
+    },
+    {
+      "name": "Elf",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.004.086-517bb5f211",
+      "file_format": ".zip"
+    },
+    {
+      "name": "AutumnLeafBand",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.009.086-5bcd46f22d",
+      "file_format": ".zip"
+    },
+    {
+      "name": "2_5D_AngelLow",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.005.086-3023ebf8af",
+      "file_format": ".zip"
+    },
+    {
+      "name": "Crown",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.014.086-5c39e45a8b",
+      "file_format": ".zip"
+    },
+    {
+      "name": "Oscar",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.005.086-4db7f3588c",
+      "file_format": ".zip"
+    },
+    {
+      "name": "NeonButterfly",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.005.086-733d6026f8",
+      "file_format": ".zip"
+    },
+    {
+      "name": "Unicorn2",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.014.086-86d77ee6a6",
+      "file_format": ".zip"
+    },
+    {
+      "name": "AlbertEinstein2Low",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.002.086-4ed85a69fb",
+      "file_format": ".zip"
+    },
+    {
+      "name": "Terminator",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.010.086-2f5834358d",
+      "file_format": ".zip"
+    },
+    {
+      "name": "Angel2",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.001.086-703abe3f71",
+      "file_format": ".zip"
+    },
+    {
+      "name": "AvengersTonyStark",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.016.086-7f15a5d82b",
+      "file_format": ".zip"
+    },
+    {
+      "name": "BabySharkChallenge",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.007.086-5c535177af",
+      "file_format": ".zip"
+    },
+    {
+      "name": "FlashSuperhero",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.004.086-af7da5712e",
+      "file_format": ".zip"
+    },
+    {
+      "name": "Explorer",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.004.086-2c75355df6",
+      "file_format": ".zip"
+    },
+    {
+      "name": "Sherlock",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.002.086-629f6fe0d7",
+      "file_format": ".zip"
+    },
+    {
+      "name": "Chef",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.011.086-8836aee102",
+      "file_format": ".zip"
+    },
+    {
+      "name": "JackSparrow",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.006.086-5af09b1388",
+      "file_format": ".zip"
+    },
+    {
+      "name": "LemonGirl",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.002.086-ed37b45664",
+      "file_format": ".zip"
+    },
+    {
+      "name": "HWitch",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.006.086-3ceb7e53eg",
+      "file_format": ".zip"
+    },
+    {
+      "name": "BeardFlowers",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.004.086-2fc0aac174",
+      "file_format": ".zip"
+    },
+    {
+      "name": "BrutalMan",
+      "remote_dir": "common/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.006.086-09be3b5a36",
+      "file_format": ".zip"
+    }
+  ]
+}

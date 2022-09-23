@@ -1,0 +1,58 @@
+draw_order = [ "TriMBG", "TriBgV", "Transp", "TriBlr" ]
+passes = [
+  "df_blur_down1.toml",
+  "df_blur_down2.toml",
+  "df_blur_down3.toml",
+  "df_blur_up2.toml",
+  "df_blur_up1.toml",
+  "bg_mask.toml"
+]
+no_preload_textures = [ ]
+adjust_znear = 0
+adjust_zfar = 0
+
+[materials.TriMBG]
+vs = "bg.vert"
+fs = "bg.frag"
+blend = "alpha"
+backfaces = false
+colorwrite = true
+shadow = false
+zwrite = false
+ztest = false
+
+  [materials.TriMBG.samplers]
+  bgTex = 0
+
+[materials.TriBgV]
+vs = "bg.vert"
+fs = "bg_video.frag"
+blend = "alpha"
+backfaces = false
+colorwrite = true
+shadow = false
+zwrite = false
+ztest = false
+samplers = { }
+
+[materials.Transp]
+vs = "bg.vert"
+fs = "bg_transparent.frag"
+blend = "off"
+backfaces = false
+colorwrite = true
+shadow = false
+zwrite = false
+ztest = false
+samplers = { }
+
+[materials.TriBlr]
+vs = "bg_blur.vert"
+fs = "bg_blur.frag"
+blend = "alpha"
+backfaces = true
+colorwrite = true
+zwrite = false
+ztest = false
+shadow = false
+samplers = { }

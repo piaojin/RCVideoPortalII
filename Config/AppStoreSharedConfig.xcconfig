@@ -1,0 +1,12 @@
+//
+//  AppStoreSharedConfig.xcconfig
+//  Glip
+//
+//  Created by Tank Liu on 2022/6/29.
+//  Copyright © 2022 RingCentral. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = $(inherited) APPSTORE

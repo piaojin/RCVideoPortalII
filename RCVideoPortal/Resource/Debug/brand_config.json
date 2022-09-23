@@ -1,0 +1,281 @@
+{
+    "version": "1.0",
+    "targetName": "RINGCENTRAL_APP",
+    "brandId": "1210",
+    "brandName": "RingCentral",
+    "showDesktopAppEntry": true,
+    "defaultMobileAssetsHome": "https://downloads.ringcentral.com",
+    "RCMEmbededMeetingUrlHost": "zoomrc://ringcentral.zoom.us/",
+    "hideAccountCreation": ["2210", "4210", "4810", "4610", "4710", "4910", "2030", "2040"],
+    "feature":
+    [
+        {
+            "accountBrandId": "1210",
+            "accountBrandType": "RINGCENTRAL",
+            "fullBrandName": "RC",
+            "language": ["en-US","en-GB","en-AU","fr-FR","fr-CA","de-DE", "it-IT", "es-419", "es-ES", "ja-JP", "pt-PT", "pt-BR", "zh-CN", "zh-TW", "zh-HK", "nl-NL", "ko-KR", "fi-FI"],
+            "rcServiceWebUrl": "https://service.ringcentral.com",
+            "isERLSupported": true,
+            "uploadLogDisplayDisclaimer": true,
+            "emergencyAddressShowAllCountryNames": true,
+            "internationalNumberLink": "https://v.ringcentral.com/teleconference/",
+            "userAgentBrandCodeName": "RingCentral",
+            "meetingAppName":"RingCentral Video",
+            "enableLaunchDarkly": true,
+            "urls": [{
+                "language": "default",
+                "termOfServiceLink": "https://www.ringcentral.com/legal/eulatos.html",
+                "privacyNoticeLink": "https://www.ringcentral.com/legal/privacy-notice.html",
+                "emergencyServiceLink": "https://www.ringcentral.com/legal/emergency-services.html",
+                "acceptableUsePolicyLink": "https://www.ringcentral.com/legal/acceptable-use-policy.html"
+            }]
+        },
+        {
+            "accountBrandId": "3710",
+            "accountBrandType": "RINGCENTRAL_UK",
+            "fullBrandName": "RC",
+            "language": ["en-US","en-GB","en-AU","fr-FR","fr-CA","de-DE", "it-IT", "es-419", "es-ES", "ja-JP", "pt-PT", "pt-BR", "zh-CN", "zh-TW", "zh-HK", "nl-NL", "ko-KR", "fi-FI"],
+            "rcServiceWebUrl": "https://service.ringcentral.co.uk",
+            "meetingAppName":"RingCentral Video",
+            "enableLaunchDarkly": true,
+            "urls": [{
+                "language": "default",
+                "termOfServiceLink": "https://www.ringcentral.co.uk/legal/tos.html",
+                "privacyNoticeLink": "https://www.ringcentral.co.uk/legal/privacy-notice.html",
+                "emergencyServiceLink": "https://www.ringcentral.co.uk/legal/emergency-services.html",
+                "acceptableUsePolicyLink": "https://www.ringcentral.co.uk/legal/acceptable-use-policy.html"
+            }]
+        },
+        {
+            "accountBrandId": "2010",
+            "accountBrandType": "RINGCENTRAL_EU",
+            "meetingAppName":"RingCentral Video",
+            "enableLaunchDarkly": true,
+            "urls": [{
+                    "language": "fr",
+                    "termOfServiceLink": "https://www.ringcentral.fr/legal/tos.html",
+                    "privacyNoticeLink": "https://www.ringcentral.fr/legal/privacy-notice.html",
+                    "emergencyServiceLink": "https://www.ringcentral.fr/legal/emergency-services.html",
+                    "acceptableUsePolicyLink": "https://www.ringcentral.fr/legal/acceptable-use-policy.html"
+                },
+                {
+                    "language": "en",
+                    "termOfServiceLink": "https://www.ringcentral.com/legal/tos.html",
+                    "privacyNoticeLink": "https://www.ringcentral.com/legal/privacy-policy.html",
+                    "emergencyServiceLink": "https://www.ringcentral.com/legal/emergency-services.html",
+                    "acceptableUsePolicyLink": "https://www.ringcentral.com/legal/acceptable-use-policy.html"
+                },
+                {
+                    "language": "default",
+                    "termOfServiceLink": "https://www.ringcentral.nl/en/legal/tos.html",
+                    "privacyNoticeLink": "https://www.ringcentral.nl/en/legal/privacy-notice.html",
+                    "emergencyServiceLink": "https://www.ringcentral.nl/en/legal/emergency-services.html",
+                    "acceptableUsePolicyLink": "https://www.ringcentral.nl/en/legal/acceptable-use-policy.html"
+                }
+            ]
+        },
+        {
+            "accountBrandId": "5010",
+            "accountBrandType": "RINGCENTRAL_AU",
+            "meetingAppName":"RingCentral Video",
+            "enableLaunchDarkly": true,
+            "urls": [{
+                "language": "default",
+                "termOfServiceLink": "https://www.ringcentral.com.au/legal/tos.html",
+                "privacyNoticeLink": "https://www.ringcentral.com.au/legal/privacy-notice.html",
+                "emergencyServiceLink": "https://www.ringcentral.com.au/legal/emergency-services.html",
+                "acceptableUsePolicyLink": "https://www.ringcentral.com.au/legal/acceptable-use-policy.html"
+            }]
+        },
+        {
+            "accountBrandId": "3610",
+            "accountBrandType": "RINGCENTRAL_CA",
+            "isERLSupported": true,
+            "uploadLogDisplayDisclaimer": true,
+            "emergencyAddressShowAllCountryNames": true,
+            "meetingAppName":"RingCentral Video",
+            "enableLaunchDarkly": true,
+            "urls": [{
+                "language": "default",
+                "termOfServiceLink": "https://www.ringcentral.ca/legal/eulatos.html",
+                "privacyNoticeLink": "https://www.ringcentral.ca/legal/privacy-notice.html",
+                "emergencyServiceLink": "https://www.ringcentral.ca/legal/emergency-services.html",
+                "acceptableUsePolicyLink": "https://www.ringcentral.ca/legal/acceptable-use-policy.html"
+            }]
+        },
+        {
+            "accountBrandId": "1250",
+            "accountBrandType": "RINGCENTRAL_FEDRAMP",
+            "isERLSupported": true,
+            "uploadLogDisplayDisclaimer": true,
+            "emergencyAddressShowAllCountryNames": true,
+            "meetingAppName":"RingCentral Video",
+            "enableLaunchDarkly": true,
+            "urls": [{
+                "language": "default",
+                "termOfServiceLink": "https://www.ringcentral.com/legal/eulatos.html",
+                "privacyNoticeLink": "https://www.ringcentral.com/legal/privacy-notice.html",
+                "emergencyServiceLink": "https://www.ringcentral.com/legal/emergency-services.html",
+                "acceptableUsePolicyLink": "https://www.ringcentral.com/legal/acceptable-use-policy.html"
+            }]
+        },
+        {
+            "accountBrandId": "2210",
+            "accountBrandType": "VENUS",
+            "rcServiceWebUrl": "https://service.verizon.ringcentral.biz",
+            "inviteContactViaEmailOnly": true,
+            "internationalNumberLink": "https://verizon.video.ringcentral.biz/teleconference/",
+            "meetingAppName":"RingCentral with Verizon Video",
+            "enableLaunchDarkly": true,
+            "urls": [{
+                "language": "default",
+                "termOfServiceLink": "https://www.verizon.com/about/terms-conditions/ringcentral",
+                "privacyNoticeLink": "https://www.ringcentral.com/legal/a/privacy-policy.html",
+                "emergencyServiceLink": "https://www.ringcentral.com/legal/emergency-services.html",
+                "acceptableUsePolicyLink": "https://www.ringcentral.com/legal/acceptable-use-policy.html"
+            }]
+        },
+        {
+            "accountBrandId": "4210",
+            "accountBrandType": "ecotel",
+            "rcServiceWebUrl": "https://service.ecotel.ringcentral.com",
+            "inviteContactViaEmailOnly": true,
+            "internationalNumberLink": "https://ecotel.video.ringcentral.com/teleconference",
+            "meetingAppName":"RingCentral mit ecotel Video",
+            "enableLaunchDarkly": true,
+            "urls": [{
+                "language": "default",
+                "termOfServiceLink": "https://www.ecotel.de/footer-navigation/rechtliche-hinweise/agb",
+                "privacyNoticeLink": "https://www.ecotel.de/footer-navigation/rechtliche-hinweise/datenschutz",
+                "emergencyServiceLink": "https://www.ecotel.de/footer-navigation/rechtliche-hinweise/impressum",
+                "acceptableUsePolicyLink": "https://www.ecotel.de/footer-navigation/rechtliche-hinweise/agb"
+            }]
+        },
+        {
+            "accountBrandId": "4810",
+            "accountBrandType": "MCM",
+            "rcServiceWebUrl": "https://service.symphony.ringcentral.com",
+            "inviteContactViaEmailOnly": true,
+            "internationalNumberLink": "https://symphony.video.ringcentral.com/teleconference",
+            "meetingAppName":"RingCentral for Symphony Video",
+            "enableLaunchDarkly": true,
+            "urls": [{
+                "language": "default",
+                "termOfServiceLink": "https://mcmtelecom.com/downloads/legal/CONTRATO-MARCO-RC-2021.pdf",
+                "privacyNoticeLink": "https://www.mcmtelecom.com/politicas-de-privacidad",
+                "emergencyServiceLink": "https://mcmtelecom.com/aviso-legal-2021/",
+                "acceptableUsePolicyLink": "https://www.ringcentral.com/legal/acceptable-use-policy.html"
+            }]
+        },
+        {
+            "accountBrandId": "4610",
+            "accountBrandType": "Eastlink",
+            "rcServiceWebUrl": "https://service.eastlink.ringcentral.com",
+            "inviteContactViaEmailOnly": true,
+            "internationalNumberLink": "https://eastlink.video.ringcentral.com/teleconference",
+            "meetingAppName":"RingCentral with Eastlink Video",
+            "enableLaunchDarkly": true,
+            "urls": [{
+                "language": "default",
+                "termOfServiceLink": "https://www.eastlink.ca/about/terms-and-conditions",
+                "privacyNoticeLink": "https://www.eastlink.ca/about/privacy-policy",
+                "emergencyServiceLink": "https://www.eastlink.ca/about/terms-and-conditions",
+                "acceptableUsePolicyLink": "https://www.ringcentral.com/legal/acceptable-use-policy.html"
+            }]
+        },
+        {
+            "accountBrandId": "4710",
+            "accountBrandType": "Versatel",
+            "rcServiceWebUrl": "https://service.1und1.ringcentral.com",
+            "inviteContactViaEmailOnly": true,
+            "internationalNumberLink": "https://1und1.video.ringcentral.com/teleconference",
+            "meetingAppName":"RingCentral Video mit 1&1 Connected Calls",
+            "enableLaunchDarkly": true,
+            "urls": [{
+                "language": "default",
+                "termOfServiceLink": "https://www.1und1.net/agb",
+                "privacyNoticeLink": "https://www.1und1.net/datenschutz",
+                "emergencyServiceLink": "",
+                "acceptableUsePolicyLink": "https://www.1und1.net/agb"
+            }]
+        },
+        {
+            "accountBrandId": "4910",
+            "accountBrandType": "Frontier",
+            "rcServiceWebUrl": "https://service.frontier.ringcentral.com",
+            "inviteContactViaEmailOnly": true,
+            "internationalNumberLink": "https://frontier.video.ringcentral.com/teleconference",
+            "meetingAppName":"Frontier plus RingCentral Video",
+            "enableLaunchDarkly": true,
+            "urls": [{
+                "language": "default",
+                "termOfServiceLink": "https://frontier.com/corporate/terms",
+                "privacyNoticeLink": "https://frontier.com/corporate/terms",
+                "emergencyServiceLink": "https://frontier.com/~/media/corporate/terms/voice-voip-digital-customer-notice.ashx?la=en",
+                "acceptableUsePolicyLink": "https://frontier.com/corporate/terms"
+            }]
+        },
+        {
+            "accountBrandId": "2030",
+            "accountBrandType": "DT",
+            "rcServiceWebUrl": "https://service.telekom.ringcentral.com",
+            "inviteContactViaEmailOnly": true,
+            "internationalNumberLink": "https://telekom.video.ringcentral.com/teleconference",
+            "meetingAppName":"RingCentral mit Telekom Video",
+            "enableLaunchDarkly": true,
+            "urls": [{
+                "language": "default",
+                "termOfServiceLink": "https://www.telekom.de/is-bin/INTERSHOP.enfinity/WFS/EKI-PK-Site/-/-/-/ViewAGB-TextQuery?SearchText=&wt_mc=alias_1156_agb",
+                "privacyNoticeLink": "https://www.telekom.de/ueber-das-unternehmen/datenschutz?wt_mc=alias_datenschutz-ganz-einfach",
+                "emergencyServiceLink": "",
+                "acceptableUsePolicyLink": "https://www.telekom.de/is-bin/INTERSHOP.enfinity/WFS/EKI-PK-Site/-/-/-/ViewAGB-TextQuery?SearchText=&wt_mc=alias_1156_agb"
+            }]
+        },
+        {
+            "accountBrandId": "2040",
+            "accountBrandType": "DTAtos",
+            "rcServiceWebUrl": "https://service.unifyoffice-telekom.ringcentral.com",
+            "inviteContactViaEmailOnly": true,
+            "internationalNumberLink": "https://unifyoffice-telekom.video.ringcentral.com/teleconference",
+            "meetingAppName":"Unify Office by RingCentral Video",
+            "enableLaunchDarkly": true,
+            "urls": [{
+                "language": "default",
+                "termOfServiceLink": "https://www.telekom.de/is-bin/INTERSHOP.enfinity/WFS/EKI-PK-Site/-/-/-/ViewAGB-TextQuery?SearchText=&wt_mc=alias_1156_agb",
+                "privacyNoticeLink": "https://www.telekom.de/ueber-das-unternehmen/datenschutz?wt_mc=alias_datenschutz-ganz-einfach",
+                "emergencyServiceLink": "",
+                "acceptableUsePolicyLink": "https://www.telekom.de/is-bin/INTERSHOP.enfinity/WFS/EKI-PK-Site/-/-/-/ViewAGB-TextQuery?SearchText=&wt_mc=alias_1156_agb"
+            }]
+        }
+    ],
+    "meetingBrandInfo":
+    [
+        {
+            "meetingTypeName": "RCV Avaya",
+            "hasRCVWaterMark": true
+        },
+        {
+            "meetingTypeName": "RCV Telus",
+            "hasRCVWaterMark": true
+        },
+        {
+            "meetingTypeName": "TELUS",
+            "meetingHosts": "meetings.businessconnect.telus.com",
+            "dialInNumber": "+18559599009"
+        },
+        {
+            "meetingTypeName": "BT",
+            "meetingHosts": "meetings.btcloudphone.bt.com",
+            "dialInNumber": "+442031981617"
+        },
+        {
+            "meetingTypeName": "RC Video Embedded",
+            "meetingHosts": "meetings.ringcentral.com;ringcentral.zoom.us;rcdev.dev.meetzoom.us",
+            "dialInNumber": "+17732319226"
+        },
+        {
+            "meetingTypeName": "RCV Dynamic",
+            "hasRCVWaterMark": true
+        }
+    ]
+}

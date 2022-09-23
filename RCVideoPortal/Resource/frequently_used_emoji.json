@@ -1,0 +1,26 @@
+{
+    "categories":[{"id":"frequently", "emojis":["+1","sunglasses","heart_eyes","heavy_check_mark",
+                                                "clap","handshake","joy","astonished",
+                                                "thinking_face","rolling_on_the_floor_laughing","eyes","100",
+                                                "wink","blush","upside_down_face","dizzy_face"]}],
+    "emojis":
+    {
+        "+1":{"a":"Thumbs Up Sign","b":"1F44D"},
+        "sunglasses":{"a":"Smiling Face with Sunglasses","b":"1F60E"},
+        "heart_eyes":{"a":"Smiling Face with Heart-Shaped Eyes","b":"1F60D"},
+        "heavy_check_mark":{"a":"Heavy Check Mark","b":"2714-FE0F"},
+        "clap":{"a":"Clapping Hands Sign","b":"1F44F"},
+        "handshake":{"a":"Handshake","b":"1F91D"},
+        "joy":{"a":"Face with Tears of Joy","b":"1F602"},
+        "astonished":{"a":"Astonished Face","b":"1F632"},
+        "thinking_face":{"a":"Thinking Face","b":"1F914"},
+        "rolling_on_the_floor_laughing":{"a":"Rolling on the Floor Laughing","b":"1F923"},
+        "eyes":{"a":"Eyes","b":"1F440"},
+        "100":{"a":"Hundred Points Symbol","b":"1F4AF"},
+        "wink":{"a":"Winking Face","b":"1F609"},
+        "blush":{"a":"Smiling Face with Smiling Eyes","b":"1F60A"},
+        "upside_down_face":{"a":"Upside-Down Face","b":"1F643"},
+        "dizzy_face":{"a":"Dizzy Face","b":"1F635"}
+    }
+}
+    

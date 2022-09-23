@@ -1,0 +1,28 @@
+//
+//  GlipConfig-Adhoc.xcconfig
+//  Glip
+//
+//  Created by Pika Qiu on 2019/6/28.
+//  Copyright © 2019 RingCentral. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "RCVideoPortalSharedConfig.xcconfig"
+#include "../../../ringcentral-II/Glip/Pods/Target Support Files/Pods-RCVideoPortal/Pods-RCVideoPortal.adhoc.xcconfig"
+
+
+CODE_SIGN_IDENTITY = iPhone Distribution: RingCentral
+CODE_SIGN_IDENTITY[sdk=iphoneos*] = iPhone Distribution: RingCentral
+
+CODE_SIGN_STYLE = Manual
+DEVELOPMENT_TEAM = 699KR4R4WY
+
+
+PROVISIONING_PROFILE_SPECIFIER = RingCentralAdhoc
+PROVISIONING_PROFILE = ab9f45d8-63d2-42f1-974b-387c65ea2d7d
+
+PRODUCT_BUNDLE_IDENTIFIER = com.glip.mobile.rc
+// Use the same entitlements as Glip project so that no need to maintain multiple signature files.
+CODE_SIGN_ENTITLEMENTS = $(SRCROOT)/../ringcentral-II/Glip/Glip/Config/GlipInhouse.entitlements
